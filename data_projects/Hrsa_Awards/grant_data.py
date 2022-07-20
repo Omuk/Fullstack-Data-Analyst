@@ -15,7 +15,7 @@ df = pd.read_excel(r'C:\Github\Fullstack-Data-Analyst\data_projects\Hrsa_Awards\
             #If more than one sheet
 # df_sheet0 = df.parse(0)
 # df_sheet1 = df.parse(1)
-            #to align to the right----(path, skipinitialspace=True) or 'skip_blank_lines=True
+            #to align to the right---- variable = (path, skipinitialspace=True) or 'skip_blank_lines=True
                 #b) if you want a specific file
                     #data = pd.read_excel(r'Pathname', sheet_name='Name of Sheet')
 #print(df)
