@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import pandas as pd 
 import numpy as np 
 import seaborn as sns 
@@ -13,115 +7,63 @@ from sklearn.impute import SimpleImputer
 import io 
 
 
-# In[3]:
-
-
 df = pd.read_excel(r'C:\Github\Fullstack-Data-Analyst\data_projects\Hrsa_Awards\grant_data.xlsx')
-
-
-# In[4]:
-
-
-df
-
-
-# In[6]:
-
 
 df.columns = df.columns.str.replace(' ', '')
 
-
-# In[7]:
-
-
-df
-
-
-# In[ ]:
-
-
+#Change data types to desired types
 df = df.astype({'AwardYear': 'int64', 'GrantSerialNumber': 'int64', 'ProjectPeriodStartDate': 'datetime64[ns]', 'DataWarehouseRecordCreateDate': 'datetime64[ns]', 'GrantProgramDescription': 'object', 'DUNSNumber': 'float64', 'UniqueEntityIdentifier' : 'object', 'GeocodingArtifactAddressPrimaryXCoordinate': 'float64', 'GeocodingArtifactAddressPrimaryYCoordinate': 'float64'})
-
-
-# In[ ]:
-
 
 df['GrantProjectPeriodEndDate'] = pd.to_datetime(df['GrantProjectPeriodEndDate'], errors='coerce')
 
-
-# In[8]:
-
-
-df.info()
+#Find Missing Values by %
 
 
-# In[10]:
+imputer = SimpleImputer(missing_values=np.NaN, strategy='mean')
+df[['GeocodingArtifactAddressPrimaryYCoordinate']] = imputer.fit_transform(df[['GeocodingArtifactAddressPrimaryYCoordinate']])
+#
+# # Imputing with median value
+# #
+imputer_med = SimpleImputer(missing_values=np.NaN, strategy='median')
+df[['GeocodingArtifactAddressPrimaryXCoordinate']] = imputer_med.fit_transform(df[['GeocodingArtifactAddressPrimaryXCoordinate']])
 
+# #
+# # Imputing with most frequent / mode value
+# #
+imputer_mode = SimpleImputer(missing_values=np.NaN, strategy='most_frequent')
+df[['DUNSNumber']] = imputer_mode.fit_transform(df[['DUNSNumber']])
 
-df.isna().sum() * 100 /len(df)
+imputer_mode = SimpleImputer(missing_values=np.NaN, strategy='most_frequent')
+df[['U.S.-MexicoBorderCountyIndicator']] = imputer_mode.fit_transform(df[['U.S.-MexicoBorderCountyIndicator']])
+# #
+# # Imputing with constant value; The command below replaces the missing
+# # value with constant value such as 80
+# #
 
-
-# In[16]:
-
-
-aft_dropdf = df.drop(columns = ['GrantProgramDescription', 'UniformDataSystemGrantProgramDescription'])
-
-
-# In[17]:
-
-
-aft_dropdf.isna().sum() * 100 /len(df)
-
-
-# In[22]:
-
+his = sns.distplot(df.DUNSNumber)
+print(his)
 
 sns.histplot(aft_dropdf['GeocodingArtifactAddressPrimaryYCoordinate'], color='blue')
 
-
-# In[26]:
-
-
 sns.histplot(aft_dropdf['GeocodingArtifactAddressPrimaryXCoordinate'], color='blue')
 
+sns.histplot(aft_dropdf['DUNSNumber'], color='blue')
 
-# In[30]:
+sns.histplot(aft_dropdf['U.S.-MexicoBorderCountyIndicator'], color='blue')
 
+sns.histplot(aft_dropdf['GrantProgramDirectorE-mail'], color='blue')
 
-sns.histplot(aft_dropdf['DUNSNumber'], color='orange')
-
-
-# In[33]:
-
-
-sns.histplot(aft_dropdf['U.S.-MexicoBorderCountyIndicator'], color='red')
-
-
-# In[36]:
-
-
-sns.histplot(aft_dropdf['GrantProgramDirectorE-mail'], color='lime')
-
-
-# In[39]:
-
-
-sns.histplot(aft_dropdf['GrantProgramDirectorPhoneNumber'], color='yellow')
-
-
-# In[40]:
-
+sns.histplot(aft_dropdf['GrantProgramDirectorPhoneNumber'], color='blue')
 
 sns.histplot(aft_dropdf['GranteeStateAbbreviation'], color='blue')
-
-
-# In[43]:
-
 
 sns.histplot(aft_dropdf['GranteeZIPCode'], color='blue')
 
 
-# In[ ]:
+
+
+
+
 
 
 
