@@ -1,0 +1,115 @@
+body {
+    background-image: url('images/jasper1.jpg');
+    background-size: cover;
+    color:aqua;
+   
+}
+
+.main_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  border: 3px solid aquamarine;
+  color: limegreen;
+  margin-bottom: 5px;
+}
+
+.div_head2{
+  display: flex;
+  justify-content: space-evenly;
+  height: 150px;
+  border: 3px solid purple;
+    
+}
+
+.link1{
+  padding: 3% 0px 25% 0px;
+  font-size: large;
+  
+}
+
+.link2{
+  padding: 0.7% 0px 25% 0px;
+  font-size: large;
+  
+}
+
+.bod {
+    border: 5px solid red;
+    width: 40%;
+    height: 230px;
+    margin: 300px 5% 2% 50%;
+    font-size: 4vh;
+    padding-left: 20px;
+}
+
+button{
+  border-radius: 10px;
+  height: 30px;
+  background-color: skyblue;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+  font-size: 20px;
+  border: 5px solid orange;
+}
+
+.head_class2{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+nav > a {
+    padding: 2%;
+    font-size: x-large;
+    color:aqua;
+}
+
+nav > li {
+    padding: 2%;
+    font-size: x-large;
+    color:aqua;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
