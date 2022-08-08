@@ -5,6 +5,7 @@ body{
     background-color: aqua;
 }
 
+
 .uppernav {
     display: flex;
     align-items: left;
@@ -69,6 +70,14 @@ body{
     
 }
 
+.us{
+    color: aliceblue;
+}
+
+h2{
+    color:antiquewhite;
+    text-align: center;
+}
 footer{
     display: flex;
     justify-content: center;
