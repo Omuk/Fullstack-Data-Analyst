@@ -1,0 +1,38 @@
+.commbody {
+    border: 5px solid red;
+    width: 45%;
+    height: 230px;
+    margin: 300px 1% 1% 2%;
+    font-size: 4vh;
+    color:lime;
+    padding-left: 20px;
+    border: 5px solid whitesmoke;
+}
+
+.proj_richus {
+    border: 3px solid salmon;
+    display: flex;
+    margin-top: 50px;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    
+}
+
+.abotus {
+    color: aliceblue;
+    text-align: center;
+}
+
+.abotus > h2 {
+    align-items: center;
+}
+
+.ourhisto {
+    color: aliceblue;
+    text-align: center;
+}
+
+.ourhisto > h2 {
+    align-items: center;
+}
+

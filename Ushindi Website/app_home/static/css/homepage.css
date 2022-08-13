@@ -1,9 +1,24 @@
+
 body{
     background: url('willy6.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
+
+/* .navbar {
+
+}
+
+.mainbody {
+
+}
+
+.footerpg {
+
+} */
+
+
 
 
 .uppernav {

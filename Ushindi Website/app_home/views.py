@@ -2,8 +2,11 @@ from django.shortcuts import render
 
 # Create your views here.
 
+# def index(request):
+#     return render(request, 'app_home/index.html')
+
 def index(request):
-    return render(request, 'app_home/index.html')
+    return render(request, 'app_home/home.html')
 
 def orphanhome(request):
     return render(request, 'app_home/orphanhome.html')
