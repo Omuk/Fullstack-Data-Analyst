@@ -9,14 +9,14 @@
     border: 5px solid whitesmoke;
 }
 
-.proj_richus {
+/* .proj_richus {
     border: 3px solid salmon;
     display: flex;
     margin-top: 50px;
-    /* align-items: center; */
+    align-items: center; 
     justify-content: space-evenly;
     
-}
+/* } */ 
 
 .abotus {
     color: aliceblue;
@@ -36,3 +36,21 @@
     align-items: center;
 }
 
+#bibclas  > h2 {
+    color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+.bibverse {
+    width: 40%;
+  margin: 40px auto 60px;
+}
+
+.footerpg {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
