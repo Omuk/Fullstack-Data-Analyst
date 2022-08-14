@@ -5,15 +5,15 @@ body{
 
 }
 
-.bod {
-    border: 5px solid red;
-    width: 40%;
-    height: 230px;
-    margin: 300px 5% 2% 50%;
-    font-size: 4vh;
-    padding-left: 20px;
-    color:aqua;
+.bodmsm {
+  border: 20px solid greenyellow;
+  width: 90%;
+  height: 270px;
+  font-size: 4vh;
+  padding-left: 20px;
+  margin: 300px 5% 2% 5%;
 }
+
 .navbar {
   display: flex;
   flex-direction: column;
