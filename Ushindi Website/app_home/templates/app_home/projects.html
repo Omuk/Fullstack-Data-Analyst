@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="{% static 'css/mainbody.css' %}">
     <link rel="stylesheet" href="{% static 'css/lower.css' %}">
     <link rel="stylesheet" href="{% static 'css/song.css' %}">
-    <link rel="stylesheet" href="{% static 'css/orphanhome.css' %}">
+    <link rel="stylesheet" href="{% static 'css/projects.css' %}">
     
     <script defer src="{% static 'js/app.js'%}"></script>
     <title>Ushindi Children's Home</title>
@@ -35,12 +35,9 @@
             <div class="lowernav">
                 <ul class="nav nav-pills">
                     <li class="nav-item lownav">
-                        <a class="nav-link" aria-current="page" href="{% url 'orphanhome' %}">Home</a>
+                        <a class="nav-link" aria-current="page" href="{% url 'projects' %}">Home</a>
                       </li>
-                    <li class="nav-item lownav">
-                      <a class="nav-link" aria-current="page" href="{% url 'alumni' %}">Testimonials</a>
-                    </li>
-
+                      
                     <li class="nav-item lownav1">
                         <a class="link2" href="{% url 'index' %} ">
                             <img src="{% static 'images/logonew.png' %}" alt="Ushindi Logo" width="150" height="120">
@@ -48,28 +45,42 @@
                       </li>
 
                       <li class="nav-item lownav">
-                        <a class="nav-link" href="">Gallery</a>
-                      </li>
-
-                      <li class="nav-item lownav">
-                        <a class="nav-link" href="">How To Help</a>
+                        <a class="nav-link" href="{% url 'widows' %}">Gallery</a>
                       </li>
 
             </div>
         </div>
     <!-- _____________________________________________________________________ -->
-        <div class="mainbody">
-            <div class="bod">
-                <h3>The Future of Humanity is Dependent on How The Children Are Raised</h3>
-                <div class="proj_richus">
-                  <a class="btn btn-success"  href="mailto:ushindichildren@gmail.com">CONTACT US</a>
-
-                  <button class="btn btn-primary" href="{% url 'projects' %}">Proverbs 19:17</button>
-                
-                </div>
-                
-            </div>
-
+    
+        <section>
+          <div class="box1">
+              <h3><strong><em>Previous Projects</em></strong></h3>
+              <p> Ignoring the lorem part down here, this box is designed to create a content on left where I describe my last conquest.
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non et magnam natus amet repudiandae porro. Eum, ipsa adipisci. Velit dicta voluptas temporibus deleniti voluptatum eius iste reprehenderit ea recusandae inventore.</p>
+          </div>
+          <div class="box2">
+              <h3><strong><em>Current Projects</em></strong></h3>
+              <h5>Sky Dive</h5>
+              <img class="proj_img" src="{% static 'images/dance.jpeg' %}" alt="sky_dive">
+              <br>
+              <p> The second box discusses the most recent thing i did, for my next blog this section will be in first portion
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam velit quas ea voluptatum placeat dignissimos, minus nostrum. Sint omnis saepe sapiente excepturi harum quaerat a maiores, quasi nostrum odit quae?
+              <br><br><br>
+              Use Read More For the Projects
+          
+          </p>
+          </div>
+          <div class="box3">
+              <h3><strong><em>Future Projects</em></strong></h3>
+              <p>This blog discusses my future plans which include:</p>
+                  <ul><strong><u>Programing</u></strong>
+                      <li>Html and CSS</li>
+                      <li>Flask</li>
+                      <li>Repetition</li>
+                  </ul>
+                  <p>I would also like to understand how to align items within a box nice and neat</p>
+          </div>
+      </section>
             <div class="ourcont">
                 <h2>Contact Us</h2>
                 <h3>Proverbs 19:17</h3>

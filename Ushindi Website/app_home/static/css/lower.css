@@ -1,3 +1,32 @@
+.bibclas  > h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+  font-weight: normal;
+  align-items: center;
+}
+
+.bibclas  > h3 {
+  color: #11999E;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bibverse {
+  width: 40%;
+  margin: 40px auto 60px;
+  color: aliceblue;
+}
+
+.footerpg {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
 .btnlow {
     background: #3498db;
     background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
@@ -13,9 +42,10 @@
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
+    
   }
   
-  .btnlow:hover {
+.btnlow:hover {
     background: #3cb0fd;
     background-image: -webkit-linear-gradient(top, #3cb0fd, #4fd934);
     background-image: -moz-linear-gradient(top, #3cb0fd, #4fd934);
@@ -24,6 +54,11 @@
     background-image: linear-gradient(to bottom, #3cb0fd, #4fd934);
     text-decoration: none;
   }
+
+.cont {
+    align-items: center;
+    text-align: center;
+}
 
 /* .contact > h2{
   text-align: center;

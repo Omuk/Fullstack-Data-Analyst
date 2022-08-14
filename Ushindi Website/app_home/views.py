@@ -26,5 +26,14 @@ def song(request):
 def projects(request):
     return render(request, 'app_home/projects.html')
 
+def alumni(request):
+    return render(request, 'app_home/alumni.html')
+
+def widows(request):
+    return render(request, 'app_home/widows.html')
+
+def poormin(request):
+    return render(request, 'app_home/poormin.html')
+
 
 

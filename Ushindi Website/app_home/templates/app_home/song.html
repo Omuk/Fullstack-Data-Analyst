@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="{% static 'css/mainbody.css' %}">
     <link rel="stylesheet" href="{% static 'css/lower.css' %}">
     <link rel="stylesheet" href="{% static 'css/song.css' %}">
-    <link rel="stylesheet" href="{% static 'css/orphanhome.css' %}">
     
     <script defer src="{% static 'js/app.js'%}"></script>
     <title>Ushindi Children's Home</title>
@@ -35,10 +34,10 @@
             <div class="lowernav">
                 <ul class="nav nav-pills">
                     <li class="nav-item lownav">
-                        <a class="nav-link" aria-current="page" href="{% url 'orphanhome' %}">Home</a>
+                        <a class="nav-link" aria-current="page" href="{% url 'song' %}">Home</a>
                       </li>
                     <li class="nav-item lownav">
-                      <a class="nav-link" aria-current="page" href="{% url 'alumni' %}">Testimonials</a>
+                      <a class="nav-link" aria-current="page" href="{% url 'alumni' %}">Song's of The Promised Land</a>
                     </li>
 
                     <li class="nav-item lownav1">
@@ -48,19 +47,19 @@
                       </li>
 
                       <li class="nav-item lownav">
-                        <a class="nav-link" href="">Gallery</a>
+                        <a class="nav-link" href="{% url 'widows' %}">Widows Ministry</a>
                       </li>
 
                       <li class="nav-item lownav">
-                        <a class="nav-link" href="">How To Help</a>
+                        <a class="nav-link" href="{% url 'poormin' %}">Ministry to The Poor</a>
                       </li>
 
             </div>
         </div>
     <!-- _____________________________________________________________________ -->
         <div class="mainbody">
-            <div class="bod">
-                <h3>The Future of Humanity is Dependent on How The Children Are Raised</h3>
+            <div class="commbody">
+                <h3>If You Knew where the Lord Found, How Faithful He Has Been in My Journey and Where He is Taking, Not Only Will You Understand Why I Praise Him But You Will Join Me in Singing The Song Of The Promised Land</h3>
                 <div class="proj_richus">
                   <a class="btn btn-success"  href="mailto:ushindichildren@gmail.com">CONTACT US</a>
 
@@ -96,3 +95,24 @@
     -->
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="link2" href="{% url 'index' %} ">Back</a>

@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="{% static 'css/mainbody.css' %}">
     <link rel="stylesheet" href="{% static 'css/lower.css' %}">
     <link rel="stylesheet" href="{% static 'css/song.css' %}">
-    <link rel="stylesheet" href="{% static 'css/orphanhome.css' %}">
     
     <script defer src="{% static 'js/app.js'%}"></script>
     <title>Ushindi Children's Home</title>
@@ -35,10 +34,11 @@
             <div class="lowernav">
                 <ul class="nav nav-pills">
                     <li class="nav-item lownav">
-                        <a class="nav-link" aria-current="page" href="{% url 'orphanhome' %}">Home</a>
+                        <a class="nav-link" aria-current="page" href="{% url 'song' %}">Home</a>
                       </li>
+                      
                     <li class="nav-item lownav">
-                      <a class="nav-link" aria-current="page" href="{% url 'alumni' %}">Testimonials</a>
+                      <a class="nav-link" aria-current="page" href="{% url 'alumni' %}">Song's of The Promised Land</a>
                     </li>
 
                     <li class="nav-item lownav1">
@@ -48,28 +48,17 @@
                       </li>
 
                       <li class="nav-item lownav">
-                        <a class="nav-link" href="">Gallery</a>
+                        <a class="nav-link" href="{% url 'widows' %}">Widows Ministry</a>
                       </li>
 
                       <li class="nav-item lownav">
-                        <a class="nav-link" href="">How To Help</a>
+                        <a class="nav-link" href="{% url 'highschool' %}">Ministry to The Poor</a>
                       </li>
 
             </div>
         </div>
     <!-- _____________________________________________________________________ -->
-        <div class="mainbody">
-            <div class="bod">
-                <h3>The Future of Humanity is Dependent on How The Children Are Raised</h3>
-                <div class="proj_richus">
-                  <a class="btn btn-success"  href="mailto:ushindichildren@gmail.com">CONTACT US</a>
-
-                  <button class="btn btn-primary" href="{% url 'projects' %}">Proverbs 19:17</button>
-                
-                </div>
-                
-            </div>
-
+        <h1>WIDOWS</h1>
             <div class="ourcont">
                 <h2>Contact Us</h2>
                 <h3>Proverbs 19:17</h3>
