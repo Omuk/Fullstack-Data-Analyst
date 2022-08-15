@@ -6,12 +6,13 @@ body{
 }
 
 .bodmsm {
-  border: 20px solid greenyellow;
+  border: 10px solid greenyellow;
   width: 90%;
   height: 270px;
   font-size: 4vh;
   padding-left: 20px;
   margin: 300px 5% 2% 5%;
+  color: aquamarine;
 }
 
 .navbar {
