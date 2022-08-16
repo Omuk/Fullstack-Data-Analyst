@@ -1,4 +1,9 @@
-from django.shortcuts import render
+from django.shortcuts import render, render
+from .forms import *
+from .models import *
+from django.contrib import messages 
+from django.urls import reverse 
+from django.views import generic 
 
 # Create your views here.
 
@@ -34,6 +39,13 @@ def widows(request):
 
 def poormin(request):
     return render(request, 'app_home/poormin.html')
+
+def SongOLand(request):
+    posts = SongPost.objects.all().order_by('-date_created')
+
+    return render(request, 'app_home/testimony.html', {'posts':posts})
+
+
 
 
 
