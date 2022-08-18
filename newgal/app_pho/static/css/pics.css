@@ -1,0 +1,33 @@
+
+body{
+    background-image: url('Jasper2.jpg');
+    /* background-color: #72FFFF; */
+   
+
+}
+
+div {
+    border: 3px solid red;
+    margin-bottom: 2px;
+}
+
+.pics {
+    line-height:0;
+     -webkit-column-count:5; /* split it into 5 columns */
+     -webkit-column-gap:5px; /* give it a 5px gap between columns */
+     -moz-column-count:5;
+     -moz-column-gap:5px;
+     column-count:5;
+     column-gap:5px;
+}
+
+.pics > img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 2px;
+    filter: grayscale(100%);
+}
+
+.pics img:hover {
+    filter:none;
+ }
