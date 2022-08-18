@@ -1,0 +1,14 @@
+{{albumpic.title}}
+{{album.content}}
+
+{% for item in images %}
+    <img src="{{item.pictr.url}}" alt="{{item.title}}">
+    <img src="{{item.pictur1.url}}" alt="{{item.title}}">
+    <img src="{{item.pictur2.url}}" alt="{{item.title}}">
+    <img src="{{item.pictur4.url}}" alt="{{item.title}}">
+    <img src="{{item.pictur5.url}}" alt="{{item.title}}">
+    <img src="{{item.pictur6.url}}" alt="{{item.title}}">
+   
+{% endfor%}
+
+<a href="{% url 'gallery' %}">Go Back</a>
