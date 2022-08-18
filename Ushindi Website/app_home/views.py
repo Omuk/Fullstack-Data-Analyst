@@ -46,7 +46,6 @@ def SongOLand(request):
     return render(request, 'app_home/testimony.html', {'posts':posts})
 
 
-class Testimony(generic.ListView)
 
 
 
