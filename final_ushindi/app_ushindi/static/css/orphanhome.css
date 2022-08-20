@@ -1,6 +1,9 @@
-body {
-    background-image: url('willy6.jpg');
-  }
+body{
+    background: url('mountain.jpeg') no-repeat, url('worship.jpg'), url('jasper1.jpg');
+    background-position: left top, right top, left bottom;
+   
+}
+
   
   
   .lownav {
@@ -43,17 +46,30 @@ body {
 
   .orphantext {
     width: 85%;
-    height: 330px;
+    height: 530px;
     margin: 305px 1% 1% 2%;
-    font-size: 4vh;
     color:limegreen;
-    padding-left: 20px;
     border: 5px solid whitesmoke;
-    width: 50%;
     margin: 300px auto 100px auto;
     text-align: left;
     background-color: rgba(0,0,0,0.5);
 
+  }
+
+  .orphantext > h2 {
+    text-align: center;
+  }
+
+  .orphantext > p {
+    text-align: left;
+    font-size: 20px;
+    color: #00ff00;
+  }
+
+  .orphantext > h3 {
+    text-align: center;
+    font-size: 35px;
+    color:#00FFFF;
   }
   
   
@@ -129,7 +145,7 @@ body {
   }
   
   .ourhisto {
-    color: aliceblue;
+    color: #00ffff;
     /* align-items: center; */
     /* text-align: center; */
     border: 5px solid white;
@@ -140,6 +156,8 @@ body {
   
   .ourhisto > h2 {
     text-align: center;
+    text-decoration: underline;
+    font-style: italic;
   }
   
   

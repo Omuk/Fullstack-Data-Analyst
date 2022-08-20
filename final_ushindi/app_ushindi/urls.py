@@ -7,7 +7,9 @@ from . import views
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('', views.orphanhome, name='orphanhome'),
+    path('orphanhome', views.orphanhome, name='orphanhome'),
+    path('ics', views.ics, name='ics'),
+    path('high', views.high, name='high'),
     path('', views.projects, name='projects'),
     # path('<int:id>', views.album_view, name='detail')
 ]

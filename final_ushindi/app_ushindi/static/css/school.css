@@ -1,5 +1,11 @@
+/* body{
+    background: url('mountain.jpeg') no-repeat, url('worship.jpg'), url('jasper1.jpg');
+    background-position: left top, right top, left bottom;
+   
+} */
+
 body {
-    background-image: url('willy6.jpg');
+    background-image: url('high1.jpg');
   }
   
   
@@ -14,6 +20,8 @@ body {
     background-color: #66BFBF;
     display: flex;
     justify-content: space-evenly;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
   }
   
   .lownav > nav {
@@ -41,19 +49,63 @@ body {
     background-color: rgba(0,0,0,0.5);
   }
 
+  .schoolmotto {
+    width: 55%;
+    height: 190px;
+    margin: 205px 1% 1% 2%;
+    color:limegreen;
+    border: 5px solid whitesmoke;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    background-color: rgba(0,0,0,0.5);
+
+  }
+
+  .schoolmotto > h2 {
+    text-align: center;
+  }
+
+  .schoolmotto > p {
+    text-align: center;
+    font-size: 50px;
+    color: #00ff00;
+  }
+
+  .schooloffer {
+    margin-top: 10%;
+}
+
+.schoolcourses {
+    text-align: center;
+    color: aliceblue;
+}
+
   .orphantext {
     width: 85%;
-    height: 330px;
+    height: 530px;
     margin: 305px 1% 1% 2%;
-    font-size: 4vh;
     color:limegreen;
-    padding-left: 20px;
     border: 5px solid whitesmoke;
-    width: 50%;
     margin: 300px auto 100px auto;
     text-align: left;
     background-color: rgba(0,0,0,0.5);
 
+  }
+
+  .orphantext > h2 {
+    text-align: center;
+  }
+
+  .orphantext > p {
+    text-align: left;
+    font-size: 20px;
+    color: #00ff00;
+  }
+
+  .orphantext > h3 {
+    text-align: center;
+    font-size: 35px;
+    color:#00FFFF;
   }
   
   
@@ -129,7 +181,7 @@ body {
   }
   
   .ourhisto {
-    color: aliceblue;
+    color: #00ffff;
     /* align-items: center; */
     /* text-align: center; */
     border: 5px solid white;
@@ -140,6 +192,8 @@ body {
   
   .ourhisto > h2 {
     text-align: center;
+    text-decoration: underline;
+    font-style: italic;
   }
   
   
