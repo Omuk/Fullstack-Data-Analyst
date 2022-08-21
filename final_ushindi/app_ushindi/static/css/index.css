@@ -1,6 +1,6 @@
 body {
-    background-image: url('willy6.jpg');
-  }
+    background: url('/static/images/willy6.jpg');
+}
   
   
   .lownav {
@@ -148,7 +148,7 @@ body {
   
   .timeline{
     width:800px;
-    background-color:#072736;
+    background-color: rgba(0,0,0,0.5);
     color:#fff;
     padding:30px 20px;
     box-shadow:0px 0px 10px rgba(0,0,0,.5);

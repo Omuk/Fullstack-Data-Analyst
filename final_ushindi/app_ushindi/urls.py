@@ -10,7 +10,11 @@ urlpatterns = [
     path('orphanhome', views.orphanhome, name='orphanhome'),
     path('ics', views.ics, name='ics'),
     path('high', views.high, name='high'),
-    path('', views.projects, name='projects'),
+    path('projects', views.projects, name='projects'),
+    path('song', views.song, name='song'),
+    path('<int:pk>/', views.SongDetail.as_view(), name='read_more'),
+    path('blog', views.album, name='blog'),
+   path('<int:id>', views.album_view, name='pic_detail')
     # path('<int:id>', views.album_view, name='detail')
 ]
 

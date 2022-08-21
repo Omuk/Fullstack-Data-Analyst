@@ -11,13 +11,15 @@ def profile(request):
 
     return render(request, 'app_tes/index.html', {'posts':posts})
 
-# class Song(generic.ListView):
-#     #song == queryset
-#     #Testimony == Post
-#     queryset = Testimony.objects.order_by('-created_on')
-#     template_name = 'index.html'
 
 class SongDetail(generic.DetailView):
     model = Testimony
     #full_song == post_detail
     template_name = 'app_tes/read_more.html'
+
+
+# class Song(generic.ListView):
+#     #song == queryset
+#     #Testimony == Post
+#     queryset = Testimony.objects.order_by('-created_on')
+#     template_name = 'index.html'

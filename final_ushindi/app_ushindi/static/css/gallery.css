@@ -1,10 +1,15 @@
-
 body{
-    background-image: url('Jasper2.jpg');
-    /* background-color: #72FFFF; */
-   
-
+    
+    background: url('/static/images/Jasper2.jpg');
+    
+    
 }
+
+.picloc {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
 
 div {
     border: 3px solid red;
