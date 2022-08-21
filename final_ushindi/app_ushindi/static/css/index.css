@@ -8,7 +8,8 @@ body {
     justify-content: space-evenly;
     
   }
-  
+
+
   
   .navb-custom > div {
     background-color: #66BFBF;
@@ -18,6 +19,7 @@ body {
   
   .lownav > nav {
     color: #1685b8;
+    
   }
   
   .lownav > ul > li {

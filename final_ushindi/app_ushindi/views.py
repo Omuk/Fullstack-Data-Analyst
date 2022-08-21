@@ -25,6 +25,11 @@ def high(request):
 
     return render(request, 'app_ushindi/high.html')
 
+def involved(request):
+
+    return render(request, 'app_ushindi/involved.html')
+
+
 def song(request):
 
     # posts = BlogPost.objects.all()

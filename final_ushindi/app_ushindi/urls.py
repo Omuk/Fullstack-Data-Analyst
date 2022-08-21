@@ -10,6 +10,7 @@ urlpatterns = [
     path('orphanhome', views.orphanhome, name='orphanhome'),
     path('ics', views.ics, name='ics'),
     path('high', views.high, name='high'),
+    path('involved', views.involved, name='involved'),
     path('projects', views.projects, name='projects'),
     path('song', views.song, name='song'),
     path('<int:pk>/', views.SongDetail.as_view(), name='read_more'),
