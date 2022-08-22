@@ -82,6 +82,7 @@ body {
     font-size: 25px;
     background-color: rgba(0,0,0,0.5);
     width: 90%;
+    border-top: 35px;
     margin-left: 5%;
     margin-right: 4%;
    
@@ -114,8 +115,25 @@ body {
     border: 3px solid black;
     margin-right: 2px;
     font-size: 15px;
+    height: 10px;
     font-family: 'Montserrat', sans-serif;
     
+}
+
+.fourimg {
+  text-align: center;
+  font-size: 30px;
+  border: 3px solid black;
+  margin-right: 2px;
+  font-size: 15px;
+  height: 10px;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+.fourimg > img {
+  height: 10px;
+ 
 }
 
 .lastimg {
