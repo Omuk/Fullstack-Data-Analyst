@@ -39,11 +39,11 @@ body {
   .schoolmotto {
     width: 55%;
     height: 190px;
-    margin: 95px 1% 1% 2%;
     color:limegreen;
     border: 5px solid whitesmoke;
-    margin: 50px auto 100px auto;
     background-color: rgba(0,0,0,0.5);
+    margin-bottom: 200px;
+    
 
   }
 
@@ -112,12 +112,6 @@ body {
     text-align: center;
   }
   
-  
-  
-  
-  
-
-  
   .ourhisto {
     color: #00ffff;
     /* align-items: center; */
@@ -135,14 +129,13 @@ body {
   }
 
 .schoolcourses {
-    color: #00ffff;
-    /* align-items: center; */
-    /* text-align: center; */
+    color: limegreen;
     border: 5px solid white;
     margin-bottom: 10px;
     margin-top: 20px;
     text-align: center;
-    /* margin-left: 30%; */
+    background-color: rgba(0,0,0,0.5);
+   
   }
   
   .ourhisto > h2 {
@@ -151,10 +144,7 @@ body {
     font-style: italic;
   }
   
-  
-  
-  
-  
+
   .timeline{
     width:800px;
     background-color: rgba(0,0,0,0.5);
