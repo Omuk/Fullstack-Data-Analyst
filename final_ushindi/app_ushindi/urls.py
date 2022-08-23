@@ -13,6 +13,7 @@ urlpatterns = [
     path('involved', views.involved, name='involved'),
     path('projects', views.projects, name='projects'),
     path('song', views.song, name='song'),
+    path('albums', views.albums, name='albums'),
     path('<int:pk>/', views.SongDetail.as_view(), name='read_more'),
     path('blog', views.album, name='blog'),
    path('<int:id>', views.album_view, name='pic_detail')

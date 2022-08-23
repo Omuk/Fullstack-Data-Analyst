@@ -8,7 +8,22 @@ body {
     justify-content: space-evenly;
     
 }
-  
+
+.lownav > .mainnav {
+    
+    margin-top: 10px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+    height: 135px;
+
+  }
+
+.lownav > .mainnav > header {
+    
+    margin-top: 0px;
+    
+    
+}
   
 .navb-custom > div {
     background-color: #66BFBF;
