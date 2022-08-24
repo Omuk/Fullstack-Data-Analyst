@@ -46,9 +46,9 @@
     
           <ul class="nav nav-pills btnnav">
             <li class="nav-item"><a href="{% url 'index' %}" class="nav-link" aria-current="page">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Gallery</a></li>
+            <li class="nav-item"><a href="{% url 'albums' %}" class="nav-link">Gallery</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Get Involved</a></li>
+            
           </ul>
         </header>
       </nav>
@@ -88,7 +88,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card thirdimg">
+          <div class="card lastimg">
             <img src="{% static 'images/old1.jpg' %}" class="card-img-top" alt="..." height="255px">
             <div class="card-body">
                 <h5 class="card-title"><b>Ushindi Life International</b></h5>
@@ -99,7 +99,7 @@
         </div>
         <div class="col">
           <div class="card lastimg">
-            <img src="{% static 'images/aoo.jpg' %}" class="card-img-top" alt="...">
+            <img src="{% static 'images/pray.jpeg' %}" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title"><b>PRAY</b></h5>
                 <p class="card-text"><em><b>Genesis 20:17</b></em> states that God hears the prayers of children and Our Children are Mighty Prayer Warriors. We also Ask that You might Pray With Us as we continue serving the Lord.</p>
@@ -116,46 +116,46 @@
   <div class="b-example-divider"></div>
 
 
- <div class="container">
-   <footer class="py-5">
-     <div class="row">
-       <div class="col-2">
-         <ul class="nav flex-column">
-           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">The Orphanage</a></li>
-           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Testimonies</a></li>
-         </ul>
-       </div>
- 
-       <div class="col-2">
-         <ul class="nav flex-column">
-           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Intermountain Christian School</a></li>
-           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Gallery</a></li>
-          
+  <div class="container">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-2">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="{% url 'index' %}" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="{% url 'orphanhome' %}" class="nav-link p-0 text-muted">The Orphanage</a></li>
+            <li class="nav-item mb-2"><a href="{% url 'song' %}" class="nav-link p-0 text-muted">Testimonies</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-2">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="{% url 'ics' %}" class="nav-link p-0 text-muted">Intermountain Christian School</a></li>
+            <li class="nav-item mb-2"><a href="{% url 'albums' %}" class="nav-link p-0 text-muted">Gallery</a></li>
            
-         </ul>
-       </div>
- 
-       <div class="col-2">
-         <ul class="nav flex-column">
-           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Kambiri Victory High School</a></li>
-           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact Us</a></li>
-           
-         </ul>
-       </div>
- 
-       <div class="col-4 offset-1">
-         <form>
-           <h5>Proverbs 19:17</h5>
-           <p>Whoever is Generous to the Poor Lends to the Lord, and He Will repay him or her for the deed</p>
-           <div class="d-flex w-100 gap-2">
-             
-            <a class="btn btn-primary"  href="mailto:ushindichildren@gmail.com">CONTACT US</a>
-             
-           </div>
-         </form>
-       </div>
-     </div>
+            
+          </ul>
+        </div>
+  
+        <div class="col-2">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="{% url 'high' %}" class="nav-link p-0 text-muted">Kambiri Victory High School</a></li>
+            <li class="nav-item mb-2"><a href="mailto:ushindichildren@gmail.com" class="nav-link p-0 text-muted">Contact Us</a></li>
+            
+          </ul>
+        </div>
+  
+        <div class="col-4 offset-1">
+          <form>
+            <h5>Proverbs 19:17</h5>
+            <p>Whoever is Generous to the Poor Lends to the Lord, and He Will repay him or her for the deed</p>
+            <div class="d-flex w-100 gap-2">
+              
+             <a class="btn btn-primary"  href="mailto:ushindichildren@gmail.com">CONTACT US</a>
+              
+            </div>
+          </form>
+        </div>
+      </div>
  
      <div class="d-flex justify-content-between py-4 my-4 border-top">
        <p>&copy; 2022 Ushindi Children's Home, All rights reserved.</p>

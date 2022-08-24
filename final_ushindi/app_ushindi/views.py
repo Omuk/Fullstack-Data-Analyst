@@ -29,6 +29,10 @@ def involved(request):
 
     return render(request, 'app_ushindi/involved.html')
 
+def albums(request):
+
+    return render(request, 'app_ushindi/albums.html')
+
 
 def song(request):
 

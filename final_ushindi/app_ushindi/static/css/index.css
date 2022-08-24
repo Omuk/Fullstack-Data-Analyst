@@ -9,7 +9,21 @@ body {
     
   }
 
+  .lownav > .mainnav {
+    
+    margin-top: 10px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+    height: 135px;
 
+  }
+
+  .lownav > .mainnav > header {
+    
+    margin-top: 0px;
+    
+    
+  }
   
   .navb-custom > div {
     background-color: #66BFBF;
@@ -17,7 +31,7 @@ body {
     justify-content: space-evenly;
   }
   
-  .lownav > nav {
+  /* .lownav > nav {
     color: #1685b8;
     
   }
@@ -25,7 +39,7 @@ body {
   .lownav > ul > li {
     color: red;
     font-size: x-large;
-  }
+  } */
   
   
   .commbody {
