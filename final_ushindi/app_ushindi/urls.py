@@ -15,7 +15,7 @@ urlpatterns = [
     path('song', views.song, name='song'),
     path('albums', views.albums, name='albums'),
     path('<int:pk>/', views.SongDetail.as_view(), name='read_more'),
-    path('blog', views.album, name='blog'),
+    path('album', views.gallery_album, name='album'),
    path('<int:id>', views.album_view, name='pic_detail')
     # path('<int:id>', views.album_view, name='detail')
 ]

@@ -56,7 +56,21 @@
       </nav>
       </div>
 
-      
+      <div class="row picloc"> 
+        {% for post in posts %}
+        <div class="col-sm-2 mb-3">
+            <div class="card" style="width: 18rem;">
+                <div class="col-md-4 p-1">
+                    <img src="{{post.image.url}}" alt="pic" width="280" height="210">
+                </div>
+                <div class="card-body">
+                <h5 class="card-title">{{post.title}}</h5>
+                <p class="card-text">{{post.content}}</p>
+                <a href="{% url 'detail' post.id %}" class="btn btn-primary">More Pictures</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
 
       This is the Album
       <a class="btn btn-primary"  href="{% url 'index' %}">Go Back</a>

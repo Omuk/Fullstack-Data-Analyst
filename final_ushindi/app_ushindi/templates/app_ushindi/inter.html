@@ -44,7 +44,7 @@
     
           <ul class="nav nav-pills btnnav">
             <li class="nav-item"><a href="{% url 'index' %}" class="nav-link" aria-current="page">Home</a></li>
-            <li class="nav-item"><a href="{% url 'albums' %}" class="nav-link">Gallery</a></li>
+            <li class="nav-item"><a href="{% url 'album' %}" class="nav-link">Gallery</a></li>
             <li class="nav-item"><a href="{% url 'high' %}" class="nav-link">Kambiri Victory High School</a></li>
             <li class="nav-item"><a href="{% url 'orphanhome' %}" class="nav-link">The Orphanage</a></li>
             <li class="nav-item"><a href="{% url 'involved' %}" class="nav-link">Get Involved</a></li>
@@ -55,72 +55,88 @@
 
 
       <div class="schoolmotto">
-        <h2>As Warriors Our Motto Is:</h2>
-        <p>Aspire to Conquer</p>
+        <h2>With Our Motto of No Mountain High Enough, in 2022 KCPE Examination. Our School was Ranked #1 in LOCATION. Also Number</h2>
         
-
-        <div class="proj_richus">
-            <a class="btn btn-success"  href="mailto:ushindichildren@gmail.com">CONTACT US</a>
-            <a class="btn btn-primary"  href="{% url 'projects' %}">PROJECTS</a>
-            <a class="btn btn-primary"  href="{% url 'projects' %}">GALLERY</a>
-        </div>
     </div>
 
 
-
-
-
-
-          <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-
-      <div class="ourhisto">
-        <h2>HOW WE CAME ABOUT</h2>
-      <div class="timeline">
-        <ul>
-          <li>
-            <span>3rd January 2020</span>
-            <div class="content">
-              <h3>What Is Lorem Ipsum?</h3>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-              </p>
-            </div>
-          </li>
-          <li>
-            <span>21st Jun 2019</span>
-            <div class="content">
-              <h3>What Is Lorem Ipsum?</h3>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              </p>
-            </div>
-          </li>
-          <li>
-            <span>15th April 2018</span>
-            <div class="content">
-              <h3>What Is Lorem Ipsum?</h3>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              </p>
-            </div>
-          </li>
-          <li>
-            <span>22nd Mars 2017</span>
-            <div class="content">
-              <h3>What Is Lorem Ipsum?</h3>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
-              </p>
-            </div>
-          </li>
-        </ul>
+    <!-- ----------------------------------------------------------------------------------------- -->
+    <div class="row">
+      <div class="col-sm-2 mb-2">
+        <div class="awardimg">
+          <img src="{% static 'images/award/oneaward.jpg' %}" class="rounded-circle" alt="...">
+          <div >
+            <h5>Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2 mb-3">
+        <div class="awardimg">
+          <img src="{% static 'images/award/twoaward.jpg' %}" class="rounded-circle" alt="...">
+          <div >
+            <h5>Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
       </div>
 
-    </div>
+      <div class="col-sm-2 mb-3">
+        <div class="awardimg">
+          <img src="{% static 'images/award/threeaward.jpg' %}" class="rounded-circle" alt="...">
+          <div >
+            <h5>Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-2 mb-3">
+        <div class="awardimg">
+          <img src="{% static 'images/award/fouraward.jpg' %}" class="rounded-circle" alt="...">
+          <div >
+            <h5>Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-2 mb-3">
+        <div class="awardimg">
+          <img src="{% static 'images/award/oneaward.jpg' %}" class="rounded-circle" alt="...">
+          <div >
+            <h5>Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-2 mb-3">
+        <div class="awardimg">
+          <img src="{% static 'images/award/oneaward.jpg' %}" class="rounded-circle" alt="...">
+          <div >
+            <h5>Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+  
+      </div>
+
+
+
+
+
+
+     <!-- ---------------------------------------------------------------------------- -->
      
-    </div>
-        
- <!-- ------------------------------------------------------------------------------------------------------------------- -->
+    
+     
+<!-- ------------------------------------------------------------------------------------------------------ -->
+
+    <!-- ------------------------------------------------------------------ -->
+    
+    ------------------------------------------------------------------------------------------------------------------- -->
 
  <div class="abotus">
     
@@ -128,7 +144,18 @@
       <div class="col-sm-4">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Our Visions</h5>
+            <h5 class="card-title">Our School</h5>
+            <p class="card-text">Kambiri Victory High School is a Testament to the Goodness and Faithfulness of God. Back in 20... we had over ... children across multiple High Schools in Kenya. Affordability to meet the vision of providing quality education was proving to be a challenge and hence the establishment of the High School</p>
+            <p>God Has Been Faithful in providing resources to facilitate <em> Free High Quality</em> <b>Education, Extra-Curriculum Activities, Facilities and Curriculum Practical Resources</b> to <em><b>Orphans, Underprivileged,</b></em> which is <em>Affordable</em> to <em><b>Talented and Other Students</b></em> and talented <em> Free High Quality</em></p>
+                
+            <a href="#" class="btn btn-primary">Get Involved</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Our Vision</h5>
             <p class="card-text">We Exist to meet the needs of the orphans, Abandoned, Neglected or Abused children by providing education, food, shelter, clothing, health care, skills training and Christian discipleship</p>
             <p>Meeting the needs of the Children by providing Education, Food, Shelter, Clothing, Health Care, Skills training and Christian discipleship</p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -145,16 +172,6 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Our School</h5>
-            <p class="card-text">   Established in 2011 with Only ... students. Intermountain has expanded immensely to host over 500 students....</p>
-            <p>,....</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
       
 
 </div>
@@ -163,96 +180,13 @@
  <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
  <div class="schooloffer">
     <div class="schoolcourses">
-      <h2 >What We Offer</h2>
-    <p>A Christian organization dedicated to building Self-Sustaining orphanages in Kenya to give new homes to children who have been orphaned - largely due to the HIV/AIDS pandemic or children who are Victims of Abuse, Neglect or Abandonment. In addition, we work to meet the needs of the poor and widowed</p>
+      <h2 >Why Join Us</h2>
+    <p>Intermountain Christian School is The School For The Future. Our teaching methodology and culture is designed to not merely educate children but nurture them as well. In addition to the Curriculum required by the Education Department, we offer Extra-Curricular activities tailored towards providing success to our students through high school and Life. </p>
     </div>
 
-<div class="row">
-      <div class="col-sm-3 mb-3">
-        <div class="card">
-          <div class="card-body">
-            <h4 class="card-title">Computer Studies</h4>
-            <div class="row g-0">
-                <div class="col-md-4">
-                    <img src="high1.jpg" alt="pic" width="150" height="120">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <p>A One or Tow description of the subject A One or Tow description of the subject A One or Tow description of the subject</p>
-                    <a href="" class="btn btn-primary">Read More...</a>
-                   
-                  </div>
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-3 mb-3">
-        <div class="card">
-          <div class="card-body">
-            <h4 class="card-title">Chemistry</h4>
-            <div class="row g-0">
-                <div class="col-md-4">
-                    <img src="high1.jpg" alt="pic" width="150" height="120">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <p>A One or Tow description of the subject A One or Tow description of the subject A One or Tow description of the subject</p>
-                    <a href="" class="btn btn-primary">Read More...</a>
-                   
-                  </div>
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-3 mb-3">
-        <div class="card">
-          <div class="card-body">
-            <h4 class="card-title">Physics</h4>
-            <div class="row g-0">
-                <div class="col-md-4">
-                    <img src="high1.jpg" alt="pic" width="150" height="120">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <p>A One or Tow description of the subject A One or Tow description of the subject A One or Tow description of the subject</p>
-                    <a href="" class="btn btn-primary">Read More...</a>
-                   
-                  </div>
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-3 mb-3">
-        <div class="card">
-          <div class="card-body">
-            <h4 class="card-title">CRE</h4>
-            <div class="row g-0">
-                <div class="col-md-4">
-                    <img src="high1.jpg" alt="pic" width="150" height="120">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <p>A One or Tow description of the subject A One or Tow description of the subject A One or Tow description of the subject</p>
-                    <a href="" class="btn btn-primary">Go somewhere</a>
-                   
-                  </div>
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
-     
-</div>
+
 <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-<div class="schooloffer">
-    <div class="schoolcourses">
-    <h2 >Our Extra-Curriculum Activities</h2>
-    <p>In Addition to providing education to our children, we strongly believe in providing the children with opportunities to nurture their talents or avenues to succeed in Life beyond Education. This opportunities include</p>
-    
     </div>
     
     <div class="row">
@@ -262,12 +196,11 @@
           <h4 class="card-title">Academic</h4>
           <div class="row g-0">
               <div class="col-md-4">
-                  <img src="high1.jpg" alt="pic" width="150" height="120">
+                  <img src="{% static 'images/high1.jpg' %}" class="rounded-circle" alt="pic" width="150" height="150">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <p>We train our students to understand and not merely pass the exams</p>
-                  <a href="" class="btn btn-primary">Read More...</a>
+                  <p>Not all Schools consider Academics as Extra-Curricular activities but at Intermountain Christian School We do, and We <b><em>train our students to understand and not merely pass the exams</em></b></p>
                   
                  
                 </div>
@@ -279,16 +212,15 @@
     <div class="col-sm-3 mb-3">
       <div class="card">
         <div class="card-body">
-          <h4 class="card-title">Computer Studies</h4>
+          <h4 class="card-title">Swimming Lessons</h4>
           <div class="row g-0">
               <div class="col-md-4">
-                  <img src="high1.jpg" alt="pic" width="150" height="120">
+                  <img src="high1.jpg" class="rounded-circle" alt="pic" width="150" height="150">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <p>Computer Studies -- future is in comp n hencet</p>
-                  <a href="" class="btn btn-primary">Read More...</a>
-                 
+                  <p>Students Attending Intermountain Christian School Are Offered an Opportunity in a safe environment to learn Swimming</em></b> </p>
+          
                 </div>
               </div>
           </div>
@@ -298,16 +230,15 @@
     <div class="col-sm-3 mb-3">
       <div class="card">
         <div class="card-body">
-          <h4 class="card-title">Soccer -- both men and women</h4>
+          <h4 class="card-title">Football</h4>
           <div class="row g-0">
               <div class="col-md-4">
-                  <img src="high1.jpg" alt="pic" width="150" height="120">
+                  <img src="{% static 'images/ushindi_team.jpg' %}" class="rounded-circle" alt="pic" width="150" height="150">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <p>A One or Tow description of the subject A One or Tow description of the subject A One or Tow description of the subject</p>
-                  <a href="" class="btn btn-primary">Read More...</a>
-                 
+                  <p>Also Known as Soccer, at our institution we are building a program that nurtures the children's talents in sports. Our Vision is to build both boys and girls Football Team that Conquerors all.</p>
+                  
                 </div>
               </div>
           </div>
@@ -317,24 +248,101 @@
     <div class="col-sm-3 mb-3">
       <div class="card">
         <div class="card-body">
-          <h4 class="card-title">Netball</h4>
+          <h4 class="card-title">Volleyball</h4>
           <div class="row g-0">
               <div class="col-md-4">
-                  <img src="high1.jpg" alt="pic" width="150" height="120">
+                  <img src="high1.jpg" class="rounded-circle" alt="pic" width="150" height="150">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <p>A One or Tow description of the subject A One or Tow description of the subject A One or Tow description of the subject</p>
-                  <a href="" class="btn btn-primary">Go somewhere</a>
-                 
+                  <p>At our institution we are building a program that nurtures the children's talents in sports. Our Vision is to build both boys and girls Volleyball Team that Conquerors all.</p>
+                  
                 </div>
               </div>
           </div>
         </div>
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-sm-3 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Computer Studies</h4>
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="{% static 'images/high1.jpg' %}" class="rounded-circle" alt="pic" width="150" height="150">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p>At Intermountain we offer our staff Computer Lessons to help ease the future transition of our students into computer studies. Our vision is to introduce <em><b>Computer Programming as Part of the Program</b></em> when God Provides Resources</p>
+                    
+                   
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title"> Music & Drama</h4>
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="high1.jpg" class="rounded-circle" alt="pic" width="150" height="150">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p>As a center of cultural hub, Talented Students at Intermountain Christian School are offered the opportunity to showcase their talents through singing, reciting, acting, dancing among others</em></b> </p>
+              
+                   
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Foreign Language</h4>
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img class=""  src="{% static 'images/ushindi_team.jpg' %}" class="rounded-circle" alt="pic" width="150" height="150">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p>At Intermountain, we are trusting God in establishing a foreign Language Program for our student as the Lord Leads Us </p>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Special Education</h4>
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="high1.jpg" class="rounded-circle" alt="pic" width="150" height="150">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p>While not fully equipped to meet different special needs cases, We are trusting God for resources to be able to meet the need of caring for special needs children in our community</p>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
    
-    
+    <div class="schoolcourses">
+  
+        <h4>The Success of a Child is Highly dependent on the Academic and Talent Foundation. At Mountain We Strive to raise children with strong background to succeed in high school and later on in life.</h4>
+      
+      </div>
 </div>
     
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
@@ -358,7 +366,7 @@
        <div class="col-2">
          <ul class="nav flex-column">
            <li class="nav-item mb-2"><a href="{% url 'ics' %}" class="nav-link p-0 text-muted">Intermountain Christian School</a></li>
-           <li class="nav-item mb-2"><a href="{% url 'albums' %}" class="nav-link p-0 text-muted">Gallery</a></li>
+           <li class="nav-item mb-2"><a href="{% url 'album' %}" class="nav-link p-0 text-muted">Gallery</a></li>
           
            
          </ul>

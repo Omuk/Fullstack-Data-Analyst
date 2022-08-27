@@ -47,7 +47,7 @@ class SongDetail(generic.DetailView):
     #full_song == post_detail
     template_name = 'app_ushindi/read_more.html'
 
-def album(request):
+def gallery_album(request):
     posts = Album.objects.all()
     return render(request, 'app_ushindi/gallery.html', {'posts':posts})
 
