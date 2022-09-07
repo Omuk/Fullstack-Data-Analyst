@@ -16,6 +16,7 @@ class Testimony(models.Model):
     body = models.TextField()
     # image = models.ImageField(upload_to='images', null=True, blank=True)
     image = models.ImageField(default='default.jpg', upload_to='profile_pic')
+    vids = models.FileField(upload_to='videos', default=False)
     status = models.CharField(max_length=13, choices=STATUS, default='Alumni')
 
 

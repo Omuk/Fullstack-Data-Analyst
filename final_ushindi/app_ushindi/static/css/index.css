@@ -1,6 +1,12 @@
 body {
     background: url('/static/images/willy6.jpg');
 }
+
+.navb-custom > div {
+  background-color: #66BFBF;
+  display: flex;
+  justify-content: space-evenly;
+}
   
   
   .lownav {
@@ -11,25 +17,28 @@ body {
 
   .lownav > .mainnav {
     
-    margin-top: 10px;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
     padding-top: 0px;
     margin-bottom: 10px;
     height: 135px;
+   
+    
+    
 
   }
 
   .lownav > .mainnav > header {
     
     margin-top: 0px;
+    /* display: flex;
+    justify-content: space-evenly; */
     
     
   }
   
-  .navb-custom > div {
-    background-color: #66BFBF;
-    display: flex;
-    justify-content: space-evenly;
-  }
+
   
   /* .lownav > nav {
     color: #1685b8;
