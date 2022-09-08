@@ -59,14 +59,14 @@ body {
     color:#fff;
     padding-left: 20px;
     padding-top: 50px;
-    border: 5px solid whitesmoke;
+    /* border: 5px solid whitesmoke; */
     width: 50%;
     margin: 300px auto 100px auto;
     text-align: left;
     background-color: rgba(0,0,0,0.5);
   }
 
-  .orphantext {
+  /* .orphantext {
     width: 85%;
     height: 330px;
     margin: 305px 1% 1% 2%;
@@ -79,32 +79,44 @@ body {
     text-align: left;
     background-color: rgba(0,0,0,0.5);
 
-  }
+  } */
   
   
   
   .aboutush {
-    width: 65%;
-    height: 330px;
-    margin: 305px 1% 1% 2%;
+    /* width: 65%; */
+    height: 190px;
+    margin: 205px 1% 1% 2%;
     font-size: 4vh;
     color:#fff;
     padding-left: 20px;
-    padding-top: 50px;
-    border: 5px solid whitesmoke;
-    width: 50%;
-    margin: 300px auto 100px auto;
+    padding-top: 10px;
+    /* border: 5px solid whitesmoke; */
+    width: 95%;
+    margin: 230px auto 100px auto;
     text-align: left;
     background-color: rgba(0,0,0,0.5);
     
   }
   .aboutush >p {
     font-size: 20px;
+    text-align: center;
+    color:#34ace0;
+    font-size:17px;
+    padding-top:5px;
     
   }
   .aboutush > h2 {
     text-align: center;
+    align-items: center;
     font-size: 50px;
+    background-color:#1685b8;
+    background-size: auto;
+    border-radius:25px;
+    padding:2px 5px;
+    margin-left: 40%;
+    width: fit-content;
+
   }
   
   .ushvision {
@@ -140,9 +152,6 @@ body {
   .ushmision > h5 {
     text-align: center;
   }
-  
-  
-  
   
   
   .visio {
