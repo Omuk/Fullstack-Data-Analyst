@@ -1,5 +1,8 @@
 {
     "cSpell.words": [
-        "figsize"
+        "bfill",
+        "ffill",
+        "figsize",
+        "fillna"
     ]
 }
