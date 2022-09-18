@@ -1,6 +1,14 @@
-body {
+/* body {
     background: url('/static/images/willy6.jpg');
+} */
+
+.topdiv {
+  background: url('/static/images/willy6.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30%;
 }
+
 
 .navb-custom > div {
   background-color: #66BFBF;
@@ -9,93 +17,58 @@ body {
 }
   
   
-  .lownav {
+.lownav {
     display: flex;
     justify-content: space-evenly;
     
-  }
+}
 
-  .lownav > .mainnav {
+.lownav > .mainnav {
     
     margin-top: 2px;
     margin-left: 2px;
     margin-right: 2px;
     padding-top: 0px;
     margin-bottom: 10px;
-    height: 135px;
+    height: 35px;
    
-    
-    
+}
 
-  }
-
-  .lownav > .mainnav > header {
-    
-    margin-top: 0px;
-    /* display: flex;
-    justify-content: space-evenly; */
-    
-    
-  }
-  
-
-  
-  /* .lownav > nav {
-    color: #1685b8;
-    
-  }
-  
-  .lownav > ul > li {
-    color: red;
-    font-size: x-large;
-  } */
-  
   
   .commbody {
     width: 45%;
     height: 230px;
     margin: 305px 1% 1% 2%;
     font-size: 4vh;
-    color:#fff;
+    color: #34ace0;;
     padding-left: 20px;
     padding-top: 50px;
     /* border: 5px solid whitesmoke; */
     width: 50%;
-    margin: 300px auto 100px auto;
+    margin: 300px auto 10px auto;
     text-align: left;
     background-color: rgba(0,0,0,0.5);
   }
 
-  /* .orphantext {
-    width: 85%;
-    height: 330px;
-    margin: 305px 1% 1% 2%;
-    font-size: 4vh;
-    color:limegreen;
-    padding-left: 20px;
-    border: 5px solid whitesmoke;
-    width: 50%;
-    margin: 300px auto 100px auto;
-    text-align: left;
-    background-color: rgba(0,0,0,0.5);
+  .middiv {
+    background-color: #fff;
+  }
 
-  } */
-  
-  
   
   .aboutush {
-    /* width: 65%; */
     height: 190px;
-    margin: 205px 1% 1% 2%;
     font-size: 4vh;
+    width: 75%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:#fff;
     padding-left: 20px;
     padding-top: 10px;
-    /* border: 5px solid whitesmoke; */
-    width: 95%;
-    margin: 230px auto 100px auto;
-    text-align: left;
-    background-color: rgba(0,0,0,0.5);
+    margin: 0px 5% 5px 15%;
+    /* background-color: rgba(0,0,0,0.5); */
+    color:#fff;
+    padding:30px 20px;
+    box-shadow:0px 0px 10px rgba(0,0,0,.5);
+    
     
   }
   .aboutush >p {
@@ -110,128 +83,121 @@ body {
     text-align: center;
     align-items: center;
     font-size: 50px;
-    background-color:#1685b8;
+    color: orange;
     background-size: auto;
-    border-radius:25px;
-    padding:2px 5px;
-    margin-left: 40%;
-    width: fit-content;
-
-  }
-  
-  .ushvision {
-    width: 250px;
-    height: 330px;
-    /* margin: 305px 1% 1% 2%; */
-    font-size: 20px;
-    color:limegreen;
-    padding-left: 20px;
-    padding-top: 75px;
-    border: 5px solid whitesmoke;
-    width: 50%;
-    /* margin: 300px auto 100px auto; */
-    text-align: left;
-    background-color: rgba(0,0,0,0.5);
-  }
-  .ushmision {
-    width: 250px;
-    height: 330px;
-    margin-left: 300px;
-    /* margin: 305px 1% 1% 2%; */
-    font-size: 13px;
-    color:limegreen;
-    padding-left: 20px;
-    padding-top: 5px;
-    border: 5px solid whitesmoke;
-    width: 50%;
-    /* margin: 300px auto 100px auto; */
-    text-align: left;
-    background-color: rgba(0,0,0,0.5);
-  }
-  
-  .ushmision > h5 {
-    text-align: center;
-  }
-  
-  
-  .visio {
-    border: 5px solid whitesmoke;
-    width: 50%;
-    margin: 300px auto 100px auto;
-    text-align: left;
-    background-color: rgba(0,0,0,0.5);
-  }
-  
-  .ourhisto {
-    color: aliceblue;
-    /* align-items: center; */
-    /* text-align: center; */
-    border: 5px solid white;
-    margin-bottom: 10px;
-    margin-top: 20px;
-    /* margin-left: 30%; */
-  }
-  
-  .ourhisto > h2 {
-    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
-  
-  .timeline{
-    width:800px;
-    background-color: rgba(0,0,0,0.5);
+  .ushvis {
+    height: 190px;
+    font-size: 4vh;
+    width: 75%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#fff;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin: 25px 5% 5px 15%;
+    /* background-color: rgba(0,0,0,0.5); */
     color:#fff;
     padding:30px 20px;
     box-shadow:0px 0px 10px rgba(0,0,0,.5);
-    align-content: center;
-    margin-left: 30%;
+    
+    
   }
-  .timeline ul{
-    list-style-type:none;
-    border-left:2px solid #094a68;
-    padding:10px 5px;
-  }
-  .timeline ul li{
-    padding:20px 20px;
-    position:relative;
-    cursor:pointer;
-    transition:.5s;
-  }
-  .timeline ul li span{
-    display:inline-block;
-    background-color:#1685b8;
-    border-radius:25px;
-    padding:2px 5px;
-    font-size:15px;
-    text-align:center;
-  }
-  .timeline ul li .content h3{
+  .ushvis >p {
+    font-size: 20px;
+    text-align: center;
     color:#34ace0;
     font-size:17px;
     padding-top:5px;
+    
   }
-  .timeline ul li .content p{
-    padding:5px 0px 15px 0px;
-    font-size:15px;
+  .ushvis > h2 {
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    color: orange;
+    background-size: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
-  .timeline ul li:before{
-    position:absolute;
-    content:'';
-    width:10px;
-    height:10px;
-    background-color:#34ace0;
-    border-radius:50%;
-    left:-11px;
-    top:28px;
-    transition:.5s;
+
+
+  .ushmis {
+    height: fit-content;
+    font-size: 4vh;
+    width: 75%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#fff;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin: 25px 5% 5px 15%;
+    /* background-color: rgba(0,0,0,0.5); */
+    color:#fff;
+    padding:30px 20px;
+    box-shadow:0px 0px 10px rgba(0,0,0,.5);
+    
+    
   }
-  .timeline ul li:hover{
+  .ushmis > h2 {
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    color: orange;
+    background-size: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .ushmis >p {
+    text-align: center;
+    color:#34ace0;
+    font-size:25px;
+    padding-top:5px;
+    
+  }
+  .ushmis > ol {
+    text-align: left;
+    color:#34ace0;
+    font-size:20px;
+    padding-top:5px;
+    align-items: center;
     background-color:#071f2a;
+    
   }
-  .timeline ul li:hover:before{
-    background-color:#0F0;
-    box-shadow:0px 0px 10px 2px #0F0;
+ 
+
+  .aboutus {
+    height: fit-content;
+    font-size: 4vh;
+    width: 75%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#fff;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin: 25px 5% 5px 15%;
+    /* background-color: rgba(0,0,0,0.5); */
+    color:#fff;
+    padding:30px 20px;
+    box-shadow:0px 0px 10px rgba(0,0,0,.5);
+    
+    
   }
+  .aboutus > h2 {
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    color: orange;
+    background-size: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .aboutus >p {
+    text-align: left;
+    color:#34ace0;
+    font-size:20px;
+    padding-top:5px;
+    
+  }
+
   
   footer {
     background-color: #66BFBF;

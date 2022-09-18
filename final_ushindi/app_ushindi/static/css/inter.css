@@ -1,92 +1,106 @@
-body{
-    background: url('/static/images/mountain.jpeg');
-    background-position: left top, right top, left bottom;
-   
-}
-
-  
-  
-  .lownav {
-    display: flex;
-    justify-content: space-evenly;
-    
+.topdiv {
+    background: url('/static/images/high4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30%;
   }
   
-  .lownav > .mainnav {
-    
-    margin-top: 10px;
-    padding-top: 0px;
-    margin-bottom: 10px;
-    height: 35px;
-
-  }
-
-  .lownav > .mainnav > header {
-    
-    margin-top: 0px;
-    
-    
-  }
   
   .navb-custom > div {
     background-color: #66BFBF;
     display: flex;
     justify-content: space-evenly;
   }
-  
-  .lownav > nav {
-    color: #1685b8;
+    
+    
+  .lownav {
+      display: flex;
+      justify-content: space-evenly;
+      
   }
   
-  .lownav > ul > li {
-    color: red;
-    font-size: x-large;
+  .lownav > .mainnav {
+      
+      margin-top: 2px;
+      margin-left: 2px;
+      margin-right: 2px;
+      padding-top: 0px;
+      margin-bottom: 10px;
+      height: 35px;
+     
   }
-  
-  
+
   .commbody {
     width: 45%;
     height: 230px;
     margin: 305px 1% 1% 2%;
     font-size: 4vh;
-    color:lime;
+    color: whitesmoke;
     padding-left: 20px;
     padding-top: 50px;
-    border: 5px solid whitesmoke;
+    /* border: 5px solid whitesmoke; */
     width: 50%;
-    margin: 300px auto 100px auto;
+    margin: 300px auto 10px auto;
     text-align: left;
     background-color: rgba(0,0,0,0.5);
   }
 
-  .orphantext {
-    width: 85%;
-    height: 530px;
-    margin: 305px 1% 1% 2%;
-    color:limegreen;
-    border: 5px solid whitesmoke;
-    margin: 300px auto 100px auto;
-    text-align: left;
-    background-color: rgba(0,0,0,0.5);
 
+
+
+  .middiv {
+    background-color: #fff;
   }
 
-  .orphantext > h2 {
+  
+  .interaward {
+    height: 590px;
+    font-size: 4vh;
+    width: 95%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#fff;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin: 0px 5% 5px 2%;
+    /* background-color: rgba(0,0,0,0.5); */
+    color:#fff;
+    padding:30px 20px;
+    box-shadow:0px 0px 10px rgba(0,0,0,.5);
+    
+    
+    
+  }
+  .interaward >p {
+    font-size: 10px;
     text-align: center;
+    color:#34ace0;
+    font-size:17px;
+    padding-top:5px;
+    
   }
-
-  .orphantext > p {
-    text-align: left;
-    font-size: 20px;
-    color: #00ff00;
-  }
-
-  .orphantext > h3 {
+  .interaward > h2 {
     text-align: center;
-    font-size: 35px;
-    color:#00FFFF;
+    align-items: center;
+    font-size: 50px;
+    color: orange;
+    background-size: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .awarding { 
+  text-align: center;
+  /* background-color: rgba(0,0,0,0.5); */
+  color: #0F0;
+  width: 300px;
+  box-shadow:0px 0px 10px rgba(0,0,0,.5);
+  
+  
   }
   
+  .awarding > img {
+   width: 60px;
+   height: 60px;
+  }
   
   
   .aboutush {
@@ -147,25 +161,13 @@ body{
     text-align: center;
   }
   
-  
-  
-  
-  
-  .visio {
-    border: 5px solid whitesmoke;
-    width: 50%;
-    margin: 300px auto 100px auto;
-    text-align: left;
-    background-color: rgba(0,0,0,0.5);
-  }
-  
   .ourhisto {
     color: #00ffff;
     /* align-items: center; */
     /* text-align: center; */
     border: 5px solid white;
     margin-bottom: 10px;
-    margin-top: 20px;
+    margin-top: 100px;
     /* margin-left: 30%; */
   }
   
@@ -175,13 +177,29 @@ body{
     font-style: italic;
   }
   
+  .schoolcourses {
+    color: limegreen;
+    border: 5px solid white;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    width: 60%;
+    height: 145px;
+    margin-left: 20%;
+   
+  }
   
-  
+  .ourhisto > h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+  }
   
   
   .timeline{
     width:800px;
-    background-color:#072736;
+    background-color: rgba(0,0,0,0.5);
     color:#fff;
     padding:30px 20px;
     box-shadow:0px 0px 10px rgba(0,0,0,.5);
@@ -237,6 +255,7 @@ body{
   
   footer {
     background-color: #66BFBF;
+    
   }
   
   .b-example-divider {

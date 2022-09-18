@@ -7,23 +7,21 @@ body {
     display: flex;
     justify-content: space-evenly;
     
+    
   }
 
   .lownav > .mainnav {
     
     margin-top: 10px;
     padding-top: 0px;
-    margin-bottom: 10px;
-    height: 135px;
+    margin-bottom: 70px;
+    height: 55px;
+    border-radius: 40%;
+    /* padding-bottom: 100px; */
 
   }
 
-  .lownav > .mainnav > header {
-    
-    margin-top: 0px;
-    
-    
-  }
+  
   
   
   .navb-custom > div {
