@@ -1,5 +1,5 @@
 .topdiv {
-    background: url('/static/images/ics110.jpg');
+    background: url('/static/images/high4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 40%;
@@ -30,6 +30,7 @@
      
   }
 
+
   .commbody {
     height: 230px;
     margin: 205px 1% 1% 2%;
@@ -37,14 +38,12 @@
     color: whitesmoke;
     padding-left: 20px;
     padding-top: 50px;
-    /* border: 5px solid whitesmoke; */
+    
     width: 80%;
     margin: 300px auto 10px auto;
     text-align: center;
     background-color: rgba(0,0,0,0.5);
   }
-
-
 
 
   .middiv {
@@ -53,62 +52,93 @@
     border: #34ace0 solid 10px;
   }
 
-  
-  .interaward {
-    /* border: yellow solid 10px; */
-    height: 300px;
+  .highabot {
+   
+    height: 550px;
     font-size: 4vh;
-    width: 75%;
+    width: 95%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:#fff;
     padding-left: 20px;
     padding-top: 10px;
-    margin: 0px 15% 5px 12%;
-    /* background-color: rgba(0,0,0,0.5); */
-    color:#fff;
+    margin: 0px 5% 5px 2%;
     padding:30px 20px;
     box-shadow:0px 0px 10px rgba(0,0,0,.5);
-    
-    
-    
+     
   }
-  .interaward >p {
-    font-size: 10px;
+
+
+
+  .highabot >p {
+    font-size: 20px;
     text-align: center;
     color:#34ace0;
-    font-size:17px;
     padding-top:5px;
     
   }
-  .interaward > h2 {
+  .highabot > h2 {
     text-align: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 40px;
     color: orange;
     background-size: auto;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
-  .icsprog {
+  .highprog {
     /* border: blueviolet solid 10px; */
-    height: 1080px;
+    height: 800px;
     font-size: 15px;
-    /* width: 85%; */
+    width: 95%; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:#34ace0;
-  
-    margin: 15px 0% 0px 0%;
-    
+    margin: 15px 1% 0px 2%;
     box-shadow:0px 0px 10px rgba(0,0,0,.5);
      
     
   }
-  .icsprog > h3 {
+  .highprog > h3 {
     display: flex;
     justify-content: center;
     font-style: oblique;
     font-weight: bolder;
     font-size: xx-large;
+  }
+
+  .highprog > p {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bolder;
+    
+  }
+
+  .highcurri {
+    /* border: blueviolet solid 10px; */
+    height: 810px;
+    font-size: 15px;
+    width: 95%; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#34ace0;
+    margin: 15px 1% 0px 2%;
+    box-shadow:0px 0px 10px rgba(0,0,0,.5);
+     
+    
+  }
+  .highcurri > h3 {
+    display: flex;
+    justify-content: center;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: xx-large;
+  }
+
+  .highcurri > p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    
   }
 
   .icsmottohead {
