@@ -56,7 +56,7 @@
      
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-
+<a class="btn btn-primary" href="{% url 'album' %}">Go Back</a>
 <div class="pics">
     {% for item in photos %}
   <img src="{{item.images.url}}" alt="{{item.title}}">

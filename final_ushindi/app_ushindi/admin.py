@@ -28,19 +28,37 @@ class PostAdmin(admin.ModelAdmin):
 class AlbumPicsAdmin(admin.ModelAdmin):
     pass
 
-class ProjAdmin(admin.StackedInline):
-    model = ProjDetails
 
-@admin.register(ProjEvents)
+class ProjectPicsAdmin(admin.StackedInline):
+    model = ProjectPics
 
-class ProjPostAdmin(admin.ModelAdmin):
-    inlines = [ProjAdmin]
+@admin.register(Projects)
+
+class PostAdminProj(admin.ModelAdmin):
+    inlines = [ProjectPicsAdmin]
 
     class Meta:
-        model = ProjEvents
+        model=Projects 
+        
+@admin.register(ProjectPics)
 
-@admin.register(ProjDetails)
-
-class ProjAdmin(admin.ModelAdmin):
+class ProjectPicsAdmin(admin.ModelAdmin):
     pass
+
+
+# class ProjAdmin(admin.StackedInline):
+#     model = ProjDetails
+
+# @admin.register(ProjEvents)
+
+# class ProjPostAdmin(admin.ModelAdmin):
+#     inlines = [ProjAdmin]
+
+#     class Meta:
+#         model = ProjEvents
+
+# @admin.register(ProjDetails)
+
+# class ProjAdmin(admin.ModelAdmin):
+#     pass
 

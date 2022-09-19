@@ -64,7 +64,7 @@ body{
     line-height:0;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 10px;
+    margin-top: 50px;
     margin: 30px 10px 10px 10px;
     flex-wrap: wrap;
      /* -webkit-column-count:5; /* split it into 5 columns 
@@ -81,6 +81,10 @@ body{
     padding-left: 20px;
     padding-bottom: 5px;
     filter: grayscale(100%);
+}
+
+.pics > h3 {
+  color:#952bb8;
 }
 
 .pics img:hover {

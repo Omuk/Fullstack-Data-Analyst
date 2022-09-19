@@ -58,33 +58,34 @@ def album_view(request, id):
     # }
 
     return render(request, 'app_ushindi/album_pics.html', { 
-        'post':album,
+        'album':album,
         'photos':photos
     })
 
 
 def projects(request):
 
-    posts = ProjEvents.objects.all()
-    
+    # posts = BlogPost.objects.all()
+    posts = Projects.objects.all().order_by('-created_on')
 
-    return render(request, 'app_ushindi/projects.html', {'posts': posts})
-
-def proj_detail(request, id):
-    album = get_object_or_404(ProjEvents, id=id)
-    photos = ProjDetails.objects.filter(album=album)
-    # context = {
-    #     'post':post,
-    #     'photos':photos
-    # }
-
-    return render(request, 'app_ushindi/proj_detail.html', { 
-        'post':album,
-        'photos':photos
-    })
+    return render(request, 'app_ushindi/projects.html', {'posts':posts})
 
 
 class ProjectDetail(generic.DetailView):
-    model = ProjEvents
+    model = Projects
     #full_song == post_detail
     template_name = 'app_ushindi/proj_detail.html'
+
+def proj_view(request, id):
+    album = get_object_or_404(Projects, id=id)
+    photos = ProjectPics.objects.filter(album=album)
+    
+
+    return render(request, 'app_ushindi/proj_detail.html', {
+        'album':album,
+        'photos':photos,
+        
+    })
+
+
+

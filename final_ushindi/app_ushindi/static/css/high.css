@@ -156,6 +156,7 @@
     color: orange;
     background-size: auto;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
   }
 
   .icsmottohead >p {

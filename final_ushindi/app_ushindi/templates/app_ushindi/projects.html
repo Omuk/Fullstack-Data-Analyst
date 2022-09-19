@@ -55,25 +55,31 @@
     </div>
 
 
-    <h2>Events and Projects</h2>
-    <div class="row"> 
-      {% for post in posts %}
-      <div class="col-sm-2 mb-3">
-          <div class="card albumcov">
-              
-                <div class="col-md-4 p-1">
-                  <img src="{{post.image.url}}" alt="pic" width="200" height="200">
+    <div class="middiv">
+
+        <div class="imgush">
+                  <h2>Events and Projects</h2>
+          
+        </div>
+                
+      <div class="row">
+        {% for post in posts %}
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body icsmottohead">
+                  <h5 class="card-title">{{post.title}} - {{post.status}}</h5>
+                  <img src="{{post.image.url}}" alt="pic">
+                  <p class="card-text">{{post.body}}
+
+                    <a href="{% url 'proj_detail' post.id %}" class="btn btn-primary">Images</a>
+                  </p>
+                  
+                </div>
               </div>
-              <div class="card-body">
-              <h5 class="card-title">{{post.title}} - {{post.status}}</h5>
-              <p class="card-text">{{post.content |truncatewords:3}}</p>
-              <a href="{% url 'proj_detail' post.id %}" class="btn btn-primary">More Information</a>
-              </div>
-              
-          </div>
-      </div>
-      {% endfor %}
-  </div>
+            </div>
+          {% endfor %}
+
+
 
 
 
