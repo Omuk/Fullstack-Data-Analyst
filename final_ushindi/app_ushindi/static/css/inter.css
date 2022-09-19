@@ -31,7 +31,7 @@
   }
 
   .commbody {
-    height: 230px;
+    height: 530px;
     margin: 205px 1% 1% 2%;
     font-size: 4vh;
     color: whitesmoke;
@@ -73,9 +73,8 @@
     
   }
   .interaward >p {
-    font-size: 10px;
     text-align: center;
-    color:#34ace0;
+    color:#a934e0;
     font-size:17px;
     padding-top:5px;
     
@@ -91,7 +90,7 @@
 
   .icsprog {
     /* border: blueviolet solid 10px; */
-    height: 1080px;
+    height: 780px;
     font-size: 15px;
     /* width: 85%; */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -111,11 +110,54 @@
     font-size: xx-large;
   }
 
-  .icsmottohead {
-    /* border: #952bb8 solid 10px; */
+  .icsvis {
+    /* border: #2bb884 solid 10px; */
     margin: 5px 0px 5px 3px;
-    height: 330px;
+    height: 230px;
     box-shadow:0px 0px 3px rgba(0,0,0,.5);
+    
+  }
+
+  .icsvis > h5 {
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    /* color: orange; */
+    background-size: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .icsvis >p {
+    font-size: 22px;
+    text-align: center;
+    /* color:#34ace0; */
+    padding-top:5px;
+    
+  }
+
+  .icsmottohead {
+    border: #952bb8 solid 1px;
+    margin: 5px 0px 5px 3px;
+    height: 230px;
+    box-shadow:0px 0px 3px rgba(0,0,0,.5);
+    
+  }
+
+.icsmottohead > h5 {
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    color: orange;
+    background-size: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .icsmottohead >p {
+    font-size: 10px;
+    text-align: center;
+    color:#34ace0;
+    font-size:17px;
+    padding-top:5px;
     
   }
  

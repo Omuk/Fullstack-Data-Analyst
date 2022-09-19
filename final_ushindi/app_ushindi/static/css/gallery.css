@@ -34,16 +34,28 @@ body{
   }
 
 .picloc {
-    margin-top: 20px;
+
     margin-left: 50px;
+    margin-top: 50px;
+    border: #3498db solid 10px;
+    width: 95%;
+    /* padding-right: 55px; */
+}
+
+.albumcov {
+  border: 3px solid red;
+  margin-right: 10px;
+  width: 220px;  
+  padding-right: 10px;
+  margin-bottom: 2px;
+  margin-top: 10px;
+  height: 380px;
+  display: flex;
+  flex-wrap: wrap;
+
 }
 
 
-/* div {
-    border: 3px solid red;
-    margin-bottom: 2px;
-    
-} */
 
 .pics {
     display: flex;

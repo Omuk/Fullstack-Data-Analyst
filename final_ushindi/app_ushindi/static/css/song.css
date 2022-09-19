@@ -1,6 +1,15 @@
-body {
+
+.topdiv {
     background: url('/static/images/song_back.jpg');
-}
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 40%;
+  }
+
+
+/* body {
+    background: url('/static/images/song_back.jpg');
+} */
   
   
 .lownav {
@@ -43,33 +52,40 @@ body {
  
 
 
-.schoolmotto {
-    width: 55%;
-    height: 100px;
-    margin: 205px 1% 1% 2%;
-    color:limegreen;
+.goodogod {
+    height: fit-content;
+    /* margin: 205px 1% 1% 2%; */
+    font-size: 4vh;
+    
+    padding-left: 20px;
+    padding-top: 30px;
     border: 5px solid whitesmoke;
-    margin: 100px auto 100px auto;
-    text-align: left;
+    width: 98%;
+    margin: 35% auto 10px auto;
+    text-align: center;
     background-color: rgba(0,0,0,0.5);
 
   }
 
-  .schoolmotto > h2 {
+  .goodogod > h3 {
     text-align: center;
+    padding-bottom: 50px;
+    color: aqua;
+    /* color: rgb(245, 245, 245); */
   }
 
-  .schoolmotto > p {
+  .goodogod > p {
     text-align: center;
     font-size: 50px;
     color: #00ff00;
   }
+
 .readmore {
     width: 45%;
-    height: 230px;
+    height: fit-content;
     margin: 305px 1% 1% 2%;
-    font-size: 4vh;
-    color:lime;
+    font-size: 20px;
+    color:whitesmoke;
     padding-left: 20px;
     padding-top: 50px;
     border: 5px solid whitesmoke;
@@ -79,7 +95,7 @@ body {
     background-color: rgba(0,0,0,0.5);
 }
 
-.orphantext {
+/* .orphantext {
     width: 85%;
     height: 330px;
     margin: 305px 1% 1% 2%;
@@ -123,14 +139,14 @@ body {
 .ushvision {
     width: 250px;
     height: 330px;
-    /* margin: 305px 1% 1% 2%; */
+    /* margin: 305px 1% 1% 2%; 
     font-size: 20px;
     color:limegreen;
     padding-left: 20px;
     padding-top: 75px;
     border: 5px solid whitesmoke;
     width: 50%;
-    /* margin: 300px auto 100px auto; */
+    /* margin: 300px auto 100px auto; 
     text-align: left;
     background-color: rgba(0,0,0,0.5);
 }
@@ -138,14 +154,14 @@ body {
     width: 250px;
     height: 330px;
     margin-left: 300px;
-    /* margin: 305px 1% 1% 2%; */
+    /* margin: 305px 1% 1% 2%; 
     font-size: 13px;
     color:limegreen;
     padding-left: 20px;
     padding-top: 5px;
     border: 5px solid whitesmoke;
     width: 50%;
-    /* margin: 300px auto 100px auto; */
+    /* margin: 300px auto 100px auto; 
     text-align: left;
     background-color: rgba(0,0,0,0.5);
 }
@@ -166,18 +182,18 @@ body {
   
 .ourhisto {
     color: aliceblue;
-    /* align-items: center; */
-    /* text-align: center; */
+    /* align-items: center; 
+    /* text-align: center; 
     border: 5px solid white;
     margin-bottom: 10px;
     margin-top: 20px;
-    /* margin-left: 30%; */
+    /* margin-left: 30%; 
 }
   
   .ourhisto > h2 {
     text-align: center;
 }
-
+ */
 
 footer {
     background-color: #66BFBF;

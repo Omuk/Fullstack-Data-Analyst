@@ -1,0 +1,15 @@
+
+
+
+<p>{{object.content}}</p>
+
+<div class="pics">
+    {% for item in photos %}
+  <img src="{{item.images.url}}" alt="{{item.title}}">
+  <p>{{item.content}}</p>
+ 
+      {% endfor%}
+
+  </div>
+
+  <a class="btn btn-primary" href="{% url 'projects' %}">Go Back</a>

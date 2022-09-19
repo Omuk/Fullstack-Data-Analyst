@@ -13,8 +13,6 @@ def orphanhome(request):
     return render(request, 'app_ushindi/orphanhome.html')
     
 
-def projects(request):
-    pass
 
 def ics(request):
 
@@ -63,3 +61,30 @@ def album_view(request, id):
         'post':album,
         'photos':photos
     })
+
+
+def projects(request):
+
+    posts = ProjEvents.objects.all()
+    
+
+    return render(request, 'app_ushindi/projects.html', {'posts': posts})
+
+def proj_detail(request, id):
+    album = get_object_or_404(ProjEvents, id=id)
+    photos = ProjDetails.objects.filter(album=album)
+    # context = {
+    #     'post':post,
+    #     'photos':photos
+    # }
+
+    return render(request, 'app_ushindi/proj_detail.html', { 
+        'post':album,
+        'photos':photos
+    })
+
+
+class ProjectDetail(generic.DetailView):
+    model = ProjEvents
+    #full_song == post_detail
+    template_name = 'app_ushindi/proj_detail.html'
