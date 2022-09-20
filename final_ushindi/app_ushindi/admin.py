@@ -1,10 +1,6 @@
 from django.contrib import admin
 from .models import *
 
-# Register your models here.
-# admin.site.register(PreviousProjects)
-# admin.site.register(CurrentProjects)
-# admin.site.register(FutureProjects)
 
 class SongAdmin(admin.ModelAdmin):
     list_display = ('title', 'singer', 'status', 'body', 'created_on')
