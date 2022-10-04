@@ -1,8 +1,15 @@
 .topdiv {
-    background: url('/static/images/coverimg/ics110.jpg');
-    background-size: cover;
+     /*background: url('/static/images/coverimg/ics49.jpg'), url('/static/images/coverimg/ics55.jpg');
+    background-position: left top, right top;
+     background-size: cover; 
+    background-repeat: no-repeat, no-repeat;
+    height: 20%;
+    */
+    background: url('/static/images/coverimg/inter1.jpeg');
+     background-size: cover; 
     background-repeat: no-repeat;
-    height: 40%;
+    height: 20%;
+
 }
   
   

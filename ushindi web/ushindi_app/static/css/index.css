@@ -9,56 +9,38 @@ body {
   }
   
   
-  .navb-custom > div {
-    background-color: black;
-    /* background-color: black; */
+.navb-custom > div {
     display: flex;
     justify-content: space-evenly;
-  }
+}
     
     
-  .lownav {
+.lownav {
       display: flex;
       justify-content: space-evenly;
+
       
-  }
+}
   
-  .lownav > .mainnav {
-      
-      margin-top: 2px;
-      margin-left: 2px;
-      margin-right: 2px;
-      padding-top: 0px;
-      margin-bottom: 10px;
-      height: 35px;
-      font-size: 55px;
-     
-  }
+.lownav > .mainnav {
+      height: auto; 
+      width: auto;
+}
  
-  .btnnav {
-   
-    background: black;
-    /* background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);  */
+.btnnav {
     -webkit-border-radius: 7;
     -moz-border-radius: 7;
     border-radius: 7px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ffffff;
     font-size: 30px;
-    padding: 10px 20px 10px 20px;
     color: red;
     font-family: 'Rosarivo', serif;
     text-decoration: none; 
-  }
+}
    
   
-  .btnnav > li :hover {
-    background: #3cb0fd;
-    background: black;
+.btnnav > li :hover {
     background-image: -webkit-linear-gradient(top, #3498db, #952bb8);
     background-image: -moz-linear-gradient(top, #3498db, #952bb8);
     background-image: -ms-linear-gradient(top, #3498db, #952bb8);
@@ -66,11 +48,11 @@ body {
     background-image: linear-gradient(to bottom, #3498db, #952bb8);
     text-decoration: none;
     color: #ffffff;
-  }
+}
   
   
     
-    .commbody {
+.commbody {
       font-size: 4vh;
       color: #34ace0;
       padding-left: 20px;
@@ -78,18 +60,18 @@ body {
       /* border: 5px solid whitesmoke; */
       width: 58%;
       height: auto;
-      margin: 490px auto 10px auto;
+      margin: 510px auto 10px auto;
       text-align: left;
       background-color: rgba(0,0,0,0.5);
-    }
+}
   
-    .middiv {
+.middiv {
       /* background-color: #fff; */
       /* background-image: linear-gradient(to bottom right, #33475b, #0033CC, #FF77CC, rgb(255, 122, 89)); */
-    }
+}
   
     
-    .aboutush {
+.aboutush {
       height: auto;
       font-size: 4vh;
       width: 98%;
@@ -103,8 +85,8 @@ body {
       /* background-image: linear-gradient(to bottom right, #33475b, #0033CC, #FF77CC, rgb(255, 122, 89)); */
       
       
-    }
-    .aboutush >p {
+}
+.aboutush >p {
       text-align: center;
       color:#34ace0;
       color: #87CEFA;
@@ -112,18 +94,18 @@ body {
       padding-top:5px;
       font-family: vergara;
       
-    }
-    .aboutush > h2 {
+}
+.aboutush > h2 {
       text-align: center;
       align-items: center;
       font-size: 50px;
       color: orange;
       background-size: auto;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
+}
   
     
-    .aboutus {
+.aboutus {
       height: fit-content;
       width: 98%;
       font-family: vergara;
@@ -140,51 +122,51 @@ body {
       /* box-shadow:0px 0px 10px rgba(0,0,0,.5); */
       
       
-    }
-    .aboutus > h2 {
+}
+.aboutus > h2 {
       text-align: center;
       align-items: center;
       font-size: 50px;
       color: orange;
       background-size: auto;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
+}
   
-    .aboutus >p {
+.aboutus >p {
       text-align: left;
       color:#34ace0;
       color: #87CEFA;
       font-size:22px;
       padding-top:5px;
       
-    }
+}
   
     
-    .b-example-divider {
-      height: 3rem;
-      background-color: rgba(0, 0, 0, .1);
-      border: solid rgba(0, 0, 0, .15);
-      border-width: 1px 0;
-      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-    }
-    
-    .bi {
-      vertical-align: -.125em;
-      fill: currentColor;
-    }
-    
 
-    footer {
-      /* background-color: #071f2a; */
-      background-color: #0c1409;
+footer {
+      background-color: rgba(0, 0, 0, 1);
       color: white;
       text-shadow: 2px ;
       font-family: 'Tangerine', serif;
       height: auto;
-    }
+}
 
 footer > .copi {
   font-size: 20px;
   font-family: rosales;
   
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border:#ffffff solid 3px;
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
 }
