@@ -33,4 +33,7 @@ ORDER BY
 SELECT MyTable.PersonID, MyTable.Names
 FROM MyTable LEFT JOIN MyTable2 ON MyTable.PersonID = MyTable2.PersonID
 
+SELECT Table1.column1, Table2.Column2,
+FROM Table1 LEFT JOIN Table2 on Table1.column1 = Table2.coulmn2
+
 
