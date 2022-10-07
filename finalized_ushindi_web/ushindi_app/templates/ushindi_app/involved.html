@@ -1,0 +1,186 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="{% static 'css/involved.css' %}">
+
+    <script defer src="{% static 'js/app.js'%}"></script>
+    
+
+    <title>Ushindi Children's Home</title>
+  </head>
+  <body>
+
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<div class="topdiv">
+ 
+  <div class="lownav">
+    <nav class="navbar navbar-custom mainnav">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-0">
+
+      <ul class="nav nav-pills btnnav">
+        <li class="nav-item"><a href="{% url 'index' %}" class="nav-link text-white" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="{% url 'album' %}" class="nav-link text-white">Gallery</a></li>
+        <li class="nav-item"><a href="{% url 'projects' %}" class="nav-link text-white">Projects</a></li>
+        
+      </ul>
+    </header>
+  </nav>
+  </div>
+
+
+
+
+
+</div>
+
+<div class="middiv">
+
+
+
+
+    <div class="involvush">
+        <h2>Get Involved</h2>
+        <p class="card-text">
+
+        Ushindi Started as a Ministry preaching the gospel in Kambiri, Kenya. It then expanded to catering for Orphans, Abandoned, Abused or Neglected Children. Shortly after, it expanded to other ministries that included provision of Quality education to communities and ministering to widows and widowers. Throughout the Expansion, God has been faithful in providing Faithful Partners to His work. To get involved with supporting the Orphanage, please reach out to Our Partner <a href="https://www.africanorphanoutreach.org/" target="_blank" rel="noopener noreferrer">African Orphan Outreach</a>. For support of bright but poor students please reach out to <a href="https://valorglobalfoundation.org/" target="_blank" rel="noopener noreferrer">Valor Global Foundation</a>. For any      other inquiries or if you need Prayers from Our Might Army of Prayer Warriors, please free to <a href="mailto:ushindilife@gmail.com" class="nav-link p-6 ">Reach Out To Us. </a>
+          </p>
+    </div>
+
+</div>
+
+
+<!-- --------------------------------------------------------------------------------------------------------- -->
+    
+      <!-- <div class="container"> -->
+       
+
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        
+        <div class="col">
+          <div class="card firstimg">
+            <div class="card-body">
+                <h5 class="card-title"><b>African Orphan Outreach</b></h5>
+                <p class="card-text">A Christian humanitarian response to the orphan crisis in Africa. AOO exists to connect people who want to share the love of Christ by providing a home and care and education for orphans amid the AIDS crisis in West Kenya.</p>
+                <a class="btn btn-primary" href="https://www.africanorphanoutreach.org/" target="_blank" rel="noopener noreferrer">More Information</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col">
+          <div class="card secimg">
+            <div class="card-body">
+                <h5 class="card-title"><b>Valor International Christian</b></h5>
+                <p class="card-text">A Christian Organization with a mission to break the chains of cyclical poverty through transformative education. It our hope to provide education for every student and equip them to put courageous faith into action.</p>
+                <a class="btn btn-primary" href="https://valorglobalfoundation.org/" target="_blank" rel="noopener noreferrer">More Information</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card thirdimg">
+            <div class="card-body">
+                <h5 class="card-title"><b>Ushindi Life International</b></h5>
+                <p class="card-text">We exist to meet the needs of orphans by providing education, food, shelter, clothing, health care, skills training and Christian discipleship</p>
+                <a class="btn btn-primary" href="mailto:ushindilife@gmail.com" class="nav-link p-6 ">Contact Us</a>.
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card lastimg">
+            <div class="card-body">
+                <h5 class="card-title"><b>PRAY</b></h5>
+                <p class="card-text"><em><b>Genesis 20:17</b></em> states that God hears the prayers of children and Our Children are Mighty Prayer Warriors. We also Ask that You might Pray With Us as we continue serving the Lord.</p>
+                <a class="btn btn-primary" href="mailto:ushindilife@gmail.com" class="nav-link p-6 ">Make A Prayer Request</a>.
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<footer>
+  <div class="b-example-divider copi"></div>
+
+
+  <div class="container copi">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-2">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="{% url 'index' %}" class="nav-link p-1 text-white">Home</a></li>
+            <li class="nav-item mb-2"><a href="{% url 'orphanhome' %}" class="nav-link p-1 text-white">The Orphanage</a></li>
+            <li class="nav-item mb-2"><a href="{% url 'song' %}" class="nav-link p-1 text-white">Testimonies</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-2">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="{% url 'ics' %}" class="nav-link p-1 text-white">Intermountain Christian School</a></li>
+            <li class="nav-item mb-2"><a href="{% url 'album' %}" class="nav-link p-1 text-white">Gallery</a></li>
+           
+            
+          </ul>
+        </div>
+  
+        <div class="col-2">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="{% url 'high' %}" class="nav-link p-1 text-white">Kambiri Victory High School</a></li>
+            <li class="nav-item mb-2"><a href="mailto:ushindilife@gmail.com" class="nav-link p-1 text-white">Contact Us</a></li>
+            
+          </ul>
+        </div>
+  
+        <div class="col-4 offset-1">
+          <form>
+            <h5>Proverbs 19:17</h5>
+            <p>Whoever is Generous to the Poor Lends to the Lord, and He Will repay him or her for the deed</p>
+            <div class="d-flex w-100 gap-2">
+              
+             <a class="btn btn-primary"  href="mailto:ushindilife@gmail.com">CONTACT US</a>
+              
+            </div>
+          </form>
+        </div>
+      </div>
+ 
+     <div class="d-flex justify-content-between py-4 my-4 border-top">
+       <p>&copy; 2022 Ushindi Life International, Inc, All rights reserved.</p>
+       <ul class="list-unstyled d-flex">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://www.facebook.com/USHINDI-CHILDRENS-HOME-73403158082" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook" style="font-size:40px;color:white"></i></a>
+          <a class="navbar-brand" href="mailto:ushindilife@gmail.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-google" style="font-size:30px; color: white;"></i></a>
+          </div>
+       </ul>
+     </div>
+   </footer>
+ </div>
+ </footer>
+ 
+     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- ----------------------------- -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
