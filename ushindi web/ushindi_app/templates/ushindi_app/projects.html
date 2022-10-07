@@ -20,126 +20,112 @@
   <body>
 
 
-<!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-    
-<!-- <div class="container"> -->
-    <div class="topdiv">
-                <div>
-
-                  <nav class="navb-custom">
-                    <div class="container-fluid">
-                      <a class="navbar-brand" href="https://www.facebook.com/USHINDI-CHILDRENS-HOME-73403158082" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook" style="font-size:30px;color:blue"></i></a>
-                      <a class="navbar-brand" href="mailto:ushindilife@gmail.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-google" style="font-size:30px; color: black;"></i></a>
-                    </div>
-        
-      <!-- </div> -->
-                  </nav>
-                </div>
-
-              <div class="lownav">
-                  <nav class="navbar navbar-custom bg-light mainnav">
-                    <header class="d-flex flex-wrap justify-content-center py-2 mb-4 border-bottom btnnav">
-                        <ul class="nav nav-pills btnnav">
-                            <li class="nav-item"><a href="{% url 'index' %}" class="nav-link" aria-current="page">Home</a></li>
-                            <li class="nav-item"><a href="{% url 'album' %}" class="nav-link">Gallery</a></li>
-                            <li class="nav-item"><a href="{% url 'involved' %}" class="nav-link">Get Involved</a></li>
-                        </ul>
-                    </header>
-                  </nav>
-              </div>
-
-         
-    </div>
+<!--                             -->
+<div class="topdiv">
+  <div class="lownav">
+    <nav class="navbar navbar-custom mainnav">
+      <header class="d-flex flex-wrap justify-content-center py-2 mb-0">
+          <ul class="nav nav-pills btnnav">
+              <li class="nav-item"><a href="{% url 'index' %}" class="nav-link text-white" aria-current="page">Home</a></li>
+              <li class="nav-item"><a href="{% url 'album' %}" class="nav-link text-white">Gallery</a></li>
+              <li class="nav-item"><a href="{% url 'involved' %}" class="nav-link text-white">Get Involved</a></li>
+          </ul>
+      </header>
+    </nav>
+</div>
+</div>
 
 
 <div class="middiv">
 
-        <div class="imgush">
-                  <h2>Events and Projects</h2>
-        </div>
-</div>
+      <div class="imgush">
+          <h2>Events and Projects</h2>
+      </div>
+
 
 
 
   <div class="goodogod">      
       <div class="row">
-        {% for post in posts %}
-            <div class="col-sm-6 rowbox">
-              <div class="card">
-                <div class="card-body icsmottohead">
-                  <h5 class="card-title">{{post.title}} - {{post.status}}</h5>
-                  <img src="{{post.image.url}}" alt="pic">
-                  <p class="card-text">{{post.body}}
-                    <span><a href="{% url 'album' %}" class="btn btn-primary">Images</a></span>
-                  </p>
-                  
-                  
-                </div>
-              </div>
-            </div>
-          {% endfor %}
+      {% for post in posts %}
+      <div class="col-sm-6 rowbox">
+      <div class="card">
+          <div class="card-body icsmottohead">
+          <h5 class="card-title">{{post.title}} - {{post.status}}</h5>
+          <img src="{{post.image.url}}" alt="pic">
+          <p class="card-text">{{post.body}}
+              <span><a href="{% url 'album' %}" class="btn btn-primary">Images</a></span>
+          </p>
+    
+    
+          </div>
       </div>
-    </div>
+      </div>
+      {% endfor %}
+      </div>
+  </div>
+
+
+<!--                    -->
+<footer>
+  <div class="b-example-divider copi"></div>
+
+
+  <div class="container copi">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-2">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="{% url 'index' %}" class="nav-link p-1 text-white">Home</a></li>
+            <li class="nav-item mb-2"><a href="{% url 'orphanhome' %}" class="nav-link p-1 text-white">The Orphanage</a></li>
+            <li class="nav-item mb-2"><a href="{% url 'song' %}" class="nav-link p-1 text-white">Testimonies</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-2">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="{% url 'ics' %}" class="nav-link p-1 text-white">Intermountain Christian School</a></li>
+            <li class="nav-item mb-2"><a href="{% url 'album' %}" class="nav-link p-1 text-white">Gallery</a></li>
+           
+            
+          </ul>
+        </div>
+  
+        <div class="col-2">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="{% url 'high' %}" class="nav-link p-1 text-white">Kambiri Victory High School</a></li>
+            <li class="nav-item mb-2"><a href="mailto:ushindilife@gmail.com" class="nav-link p-1 text-white">Contact Us</a></li>
+            
+          </ul>
+        </div>
+  
+        <div class="col-4 offset-1">
+          <form>
+            <h5>Proverbs 19:17</h5>
+            <p>Whoever is Generous to the Poor Lends to the Lord, and He Will repay him or her for the deed</p>
+            <div class="d-flex w-100 gap-2">
+              
+             <a class="btn btn-primary"  href="mailto:ushindilife@gmail.com">CONTACT US</a>
+              
+            </div>
+          </form>
+        </div>
+      </div>
+ 
+     <div class="d-flex justify-content-between py-4 my-4 border-top">
+       <p>&copy; 2022 Ushindi Life International, Inc, All rights reserved.</p>
+       <ul class="list-unstyled d-flex">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://www.facebook.com/USHINDI-CHILDRENS-HOME-73403158082" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook" style="font-size:40px;color:white"></i></a>
+          <a class="navbar-brand" href="mailto:ushindilife@gmail.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-google" style="font-size:30px; color: white;"></i></a>
+          </div>
+       </ul>
+     </div>
+   </footer>
+ </div>
+ </footer>
 
 </div>
-
-<footer>
-            <div class="b-example-divider"></div>
-          
-          
-            <div class="container">
-              <footer class="py-5">
-                <div class="row">
-                  <div class="col-2">
-                    <ul class="nav flex-column">
-                      <li class="nav-item mb-2"><a href="{% url 'index' %}" class="nav-link p-0 text-muted">Home</a></li>
-                      <li class="nav-item mb-2"><a href="{% url 'orphanhome' %}" class="nav-link p-0 text-muted">The Orphanage</a></li>
-                      <li class="nav-item mb-2"><a href="{% url 'song' %}" class="nav-link p-0 text-muted">Testimonies</a></li>
-                    </ul>
-                  </div>
-            
-                  <div class="col-2">
-                    <ul class="nav flex-column">
-                      <li class="nav-item mb-2"><a href="{% url 'ics' %}" class="nav-link p-0 text-muted">Intermountain Christian School</a></li>
-                      <li class="nav-item mb-2"><a href="{% url 'album' %}" class="nav-link p-0 text-muted">Gallery</a></li>
-                     
-                      
-                    </ul>
-                  </div>
-            
-                  <div class="col-2">
-                    <ul class="nav flex-column">
-                      <li class="nav-item mb-2"><a href="{% url 'high' %}" class="nav-link p-0 text-muted">Kambiri Victory High School</a></li>
-                      <li class="nav-item mb-2"><a href="mailto:ushindilife@gmail.com" class="nav-link p-0 text-muted">Contact Us</a></li>
-                      
-                    </ul>
-                  </div>
-            
-                  <div class="col-4 offset-1">
-                    <form>
-                      <h5>Proverbs 19:17</h5>
-                      <p>Whoever is Generous to the Poor Lends to the Lord, and He Will repay him or her for the deed</p>
-                      <div class="d-flex w-100 gap-2">
-                        
-                       <a class="btn btn-primary"  href="mailto:ushindilife@gmail.com">CONTACT US</a>
-                        
-                      </div>
-                    </form>
-                  </div>
-                </div>
-           
-               <div class="d-flex justify-content-between py-4 my-4 border-top">
-                 <p>&copy; 2022 Ushindi Life International, Inc, All rights reserved.</p>
-                 <ul class="list-unstyled d-flex">
-                  <div class="container-fluid">
-                    <a class="navbar-brand" href="https://www.facebook.com/USHINDI-CHILDRENS-HOME-73403158082" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook" style="font-size:30px;color:blue"></i></a>
-                    <a class="navbar-brand" href="mailto:ushindilife@gmail.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-google" style="font-size:30px; color: black;"></i></a>
-                    </div>
-                 </ul>
-               </div>
-             </footer>
-           </div>
-</footer>
  
  
      <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>

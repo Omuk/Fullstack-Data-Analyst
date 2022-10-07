@@ -24,26 +24,16 @@
     
 <!-- <div class="container"> -->
   <div class="topdiv">
-    <div>
-
-      <nav class="navb-custom">
-        <div class="container-fluid">
-          <h1>WE THE CONQUERORS</h1>
-        </div>
-
-<!-- </div> -->
-      </nav>
-    </div>
-
+   
   <div class="lownav">
-      <nav class="navbar navbar-custom bg-light mainnav">
-        <header class="d-flex flex-wrap justify-content-center py-2 mb-4 border-bottom btnnav">
+      <nav class="navbar navbar-custom mainnav">
+        <header class="d-flex flex-wrap justify-content-center py-2 mb-0">
             <ul class="nav nav-pills btnnav">
-              <li class="nav-item"><a href="{% url 'index' %}" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="{% url 'orphanhome' %}" class="nav-link" aria-current="page">The Orphanage</a></li>
-                <li class="nav-item"><a href="{% url 'high' %}" class="nav-link">Kambiri Victory High</a></li>
-                <li class="nav-item"><a href="{% url 'album' %}" class="nav-link">Gallery</a></li>
-                <li class="nav-item"><a href="{% url 'involved' %}" class="nav-link">Get Involved</a></li>
+              <li class="nav-item"><a href="{% url 'index' %}" class="nav-link text-white">Home</a></li>
+                <li class="nav-item"><a href="{% url 'orphanhome' %}" class="nav-link text-white" aria-current="page">The Orphanage</a></li>
+                <li class="nav-item"><a href="{% url 'high' %}" class="nav-link text-white">Kambiri Victory High</a></li>
+                <li class="nav-item"><a href="{% url 'album' %}" class="nav-link text-white">Gallery</a></li>
+                <li class="nav-item"><a href="{% url 'involved' %}" class="nav-link text-white">Get Involved</a></li>
             </ul>
         </header>
       </nav>
@@ -70,43 +60,6 @@
         </div>
 
 
-    <div class="row">
-              <div class="col-sm-4">
-                <div class="card">
-                  <div class="card-body icsvis">
-                    <h5 class="card-title">Our Vision</h5>
-                    <p class="card-text">Kambiri</p>
-                    <p>God Has Been Faithful in providing resources to facilitate <em> Free High Quality</em> 
-          
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-sm-4">
-                <div class="card">
-                  <div class="card-body icsvis">
-                    <h5 class="card-title">Our Motto</h5>
-                    <p class="card-text">Kambiri</p>
-                    <p>God Has Been Faithful in providing resources to facilitate <em> Free High Quality</em> 
-          
-                  </div>
-                </div>
-              </div>
-
-
-            <div class="col-sm-4">
-              <div class="card">
-                <div class="card-body icsvis">
-                  <h5 class="card-title">Our Mission</h5>
-                  <p class="card-text">Kambiri</p>
-                  <p>God Has Been Faithful in providing resources to facilitate <em> Free High Quality</em> 
-          
-                </div>
-              </div>
-            </div>
-
-    </div>
-
       <div class="icsprog">
               <h3>What We Teach</h3>
 
@@ -114,9 +67,9 @@
               <div class="col-sm-4">
                 <div class="card">
                   <div class="card-body icsmottohead">
-                    <h5 class="card-title">Academics</h5>
-                    <img src="{% static 'images/highcurricu/ics55.jpg' %}" class="rounded-circle" alt="pic" >
-                    <p>Not all Schools consider Academics as Extra-Curricular activities but at Intermountain Christian School We do, and We <b><em>train our students to understand and not merely pass the exams</em></b></p>
+                    <h5 class="card-title">Competency Based Curriculum Academics</h5>
+                    <img src="{% static 'images/highcurricu/ics55.jpg' %}" width="190" height="150" class="wdn-stretch rounded-corners"alt="pic" >
+                    <p>Intermountain Christian School Has Mastered the Competency Based Curriculum</em></b></p>
         
                   </div>
                 </div>
@@ -125,7 +78,7 @@
                 <div class="card">
                   <div class="card-body icsmottohead">
                     <h5 class="card-title">Sports</h5>
-                    <img src="{% static 'images/highcurricu/ics96.jpg' %}" class="rounded-circle" alt="pic" >
+                    <img src="{% static 'images/highcurricu/ics96.jpg' %}" width="190" height="150" class="wdn-stretch rounded-corners" alt="pic" >
                     <p>Our institution we are building programs that nurtures the children's talents in sports. Our Vision is to build both boys and girls Football(Soccer), Volleyball among other Sports that Conquerors all.</p>
         
                   </div>
@@ -135,21 +88,12 @@
                 <div class="card">
                   <div class="card-body icsmottohead">
                     <h5 class="card-title">Swimming</h5>
-                    <img src="{% static 'images/highcurricu/ics109.jpg' %}" class="rounded-circle" alt="pic" >
+                    <img src="{% static 'images/highcurricu/ics109.jpg' %}" width="190" height="150" class="wdn-stretch rounded-corners" alt="pic" >
                     <p><p>Students Attending Intermountain Christian School Are Offered an Opportunity in a safe environment to learn Swimming</em></b> </p>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-4">
-                <div class="card">
-                  <div class="card-body icsmottohead">
-                    <h5 class="card-title">Competency Based Curriculum</h5>
-                    <img src="{% static 'images/highcurricu/ics127.jpeg' %}" class="rounded-circle" alt="pic" >
-                    <p>Not all Schools consider Academics as Extra-Curricular activities but at Intermountain Christian School We do, and We <b><em>train our students to understand and not merely pass the exams</em></b></p>
-        
-                  </div>
-                </div>
-              </div>
+          
               <div class="col-sm-4">
                 <div class="card">
                   <div class="card-body icsmottohead">
@@ -163,7 +107,6 @@
                 <div class="card">
                   <div class="card-body icsmottohead">
                     <h5 class="card-title">Music and Drama</h5>
-                    <img src="{% static 'images/highcurricu/ics124.jpeg' %}" class="rounded-circle" alt="pic" >
                     <p>As a center of cultural hub, Talented Students at Intermountain Christian School are offered the opportunity to showcase their talents through singing, reciting, acting, dancing among others</em></b> </p>
               
                   </div>
@@ -173,24 +116,14 @@
                 <div class="card">
                   <div class="card-body icsmottohead">
                     <h5 class="card-title">Special Education</h5>
-                    <img src="{% static 'images/highcurricu/ics32.jpg' %}" class="rounded-circle" alt="pic" >
+                    <img src="{% static 'images/highcurricu/ics32.jpg' %}" width="190" height="150" class="wdn-stretch rounded-corners" alt="pic" >
                     <p>While not fully equipped to meet different special needs cases, We are trusting God for resources to be able to meet the need of caring for special needs children in our community</p>
               
                   </div>
                 </div>
               </div>
 
-              <div class="col-sm-4">
-                <div class="card">
-                  <div class="card-body icsmottohead">
-                    <h5 class="card-title">Foreign Languages</h5>
-                    <p>At Intermountain, we are trusting God in establishing a foreign Language Program for our student as the Lord Leads Us </p>
-              
-                  </div>
-                </div>
-              </div>
-
-  
+    
         </div>
       </div>
 
@@ -202,24 +135,24 @@
 
 
 <footer>
-  <div class="b-example-divider"></div>
+  <div class="b-example-divider copi"></div>
 
 
-  <div class="container">
+  <div class="container copi">
     <footer class="py-5">
       <div class="row">
         <div class="col-2">
           <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="{% url 'index' %}" class="nav-link p-0 text-muted">Home</a></li>
-            <li class="nav-item mb-2"><a href="{% url 'orphanhome' %}" class="nav-link p-0 text-muted">The Orphanage</a></li>
-            <li class="nav-item mb-2"><a href="{% url 'song' %}" class="nav-link p-0 text-muted">Testimonies</a></li>
+            <li class="nav-item mb-2"><a href="{% url 'index' %}" class="nav-link p-1 text-white">Home</a></li>
+            <li class="nav-item mb-2"><a href="{% url 'orphanhome' %}" class="nav-link p-1 text-white">The Orphanage</a></li>
+            <li class="nav-item mb-2"><a href="{% url 'song' %}" class="nav-link p-1 text-white">Testimonies</a></li>
           </ul>
         </div>
   
         <div class="col-2">
           <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="{% url 'ics' %}" class="nav-link p-0 text-muted">Intermountain Christian School</a></li>
-            <li class="nav-item mb-2"><a href="{% url 'album' %}" class="nav-link p-0 text-muted">Gallery</a></li>
+            <li class="nav-item mb-2"><a href="{% url 'ics' %}" class="nav-link p-1 text-white">Intermountain Christian School</a></li>
+            <li class="nav-item mb-2"><a href="{% url 'album' %}" class="nav-link p-1 text-white">Gallery</a></li>
            
             
           </ul>
@@ -227,8 +160,8 @@
   
         <div class="col-2">
           <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="{% url 'high' %}" class="nav-link p-0 text-muted">Kambiri Victory High School</a></li>
-            <li class="nav-item mb-2"><a href="mailto:ushindilife@gmail.com" class="nav-link p-0 text-muted">Contact Us</a></li>
+            <li class="nav-item mb-2"><a href="{% url 'high' %}" class="nav-link p-1 text-white">Kambiri Victory High School</a></li>
+            <li class="nav-item mb-2"><a href="mailto:ushindilife@gmail.com" class="nav-link p-1 text-white">Contact Us</a></li>
             
           </ul>
         </div>
@@ -250,8 +183,8 @@
        <p>&copy; 2022 Ushindi Life International, Inc, All rights reserved.</p>
        <ul class="list-unstyled d-flex">
         <div class="container-fluid">
-          <a class="navbar-brand" href="https://www.facebook.com/USHINDI-CHILDRENS-HOME-73403158082" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook" style="font-size:30px;color:blue"></i></a>
-          <a class="navbar-brand" href="mailto:ushindilife@gmail.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-google" style="font-size:30px; color: black;"></i></a>
+          <a class="navbar-brand" href="https://www.facebook.com/USHINDI-CHILDRENS-HOME-73403158082" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook" style="font-size:40px;color:white"></i></a>
+          <a class="navbar-brand" href="mailto:ushindilife@gmail.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-google" style="font-size:30px; color: white;"></i></a>
           </div>
        </ul>
      </div>

@@ -1,6 +1,4 @@
-/* body {
-      background: url('/static/images/coverimg/willy6.jpg');
-} */
+
 .topdiv {
     background: url('/static/images/coverimg/willy6.jpg');
     background-size: cover;
@@ -19,7 +17,6 @@
       display: flex;
       justify-content: space-evenly;
 
-      
 }
   
 .lownav > .mainnav {
@@ -66,18 +63,10 @@
 }
   
 .middiv {
-     /*  background: url('/static/images/coverimg/highback.jpg') left top no-repeat, url('/static/images/coverimg/ics110.jpg') right top no-repeat;
-      background-position: left top, right;
-      background-size: cover, 100px 100px, cover 100px 100px; 
-      background-size: 50% 50% 90%;*/
       background: url('/static/images/coverimg/mom22.jpg');
       
-      /* background-size: cover;
-      background-repeat: no-repeat; */
       height: 30%;
 
-      /* background-color: #fff; */
-      /* background-image: linear-gradient(to bottom right, #33475b, #0033CC, #FF77CC, rgb(255, 122, 89)); */
 }
   
     
@@ -88,8 +77,7 @@
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       background-color: rgba(0,0,0,0.7);
       padding:30px 20px;
-      /* box-shadow:0px 0px 10px rgba(0,0,0,.1); */
-      /* background-image: linear-gradient(to bottom right, #33475b, #0033CC, #FF77CC, rgb(255, 122, 89)); */
+      
       
       
 }
@@ -124,9 +112,6 @@
       background-color: rgba(0,0,0,0.7);
       padding:30px 20px;
       font-size:27px;
-      /* box-shadow: 10px 10px 10px 10px white; */
-      /* background-color: #fff; */
-      /* box-shadow:0px 0px 10px rgba(0,0,0,.5); */
       
       
 }
@@ -143,7 +128,6 @@
       text-align: left;
       color:#34ace0;
       color: #87CEFA;
-      /* color: white; */
       font-size:22px;
       padding-top:5px;
       

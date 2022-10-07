@@ -1,7 +1,8 @@
 .topdiv {
-    background: url('/static/images/coverimg/song_back.jpg');
+    background: url('/static/images/coverimg/song_back1.jpg');
     background-size: cover;
-    height: 70%;
+    height: 30%;
+    
   }
 
   .navb-custom > div {
@@ -46,62 +47,30 @@
 }
  
 
-.goodogod {
+.readmore {
     height: fit-content;
+    color:#34ace0;
     padding-left: 20px;
-    padding-top: 5px;
+    padding-top: 50px;
+    padding-bottom: 250px;
     width: 100%;
-    margin: 0px auto 0px auto;
     text-align: center;
     background-color: rgba(0,0,0,0.5);
+}
 
-  }
-
-  .goodogod > h3 {
+.readmore > h2 {
+    font-size: 30px;
+    color:orange;
     text-align: center;
-    padding-bottom: 20px;
-    color:#34ace0;
-  }
-
-  .goodogod > p {
-    font-size: 20px;
-    float: right;
-  }
-
-
-.icsmottohead {
-    margin: 0px 0px 5px 0px;
-    height: auto;
-    box-shadow:0px 0px 3px rgba(0,0,0,.5);
-    background-color: rgba(22,34,57,0.99);
-    
+    border: #00ff00 solid 3px;
 }
- 
-.icsmottohead > h5 {
+.readmore > p {
+    
     text-align: center;
-    align-items: center;
-    font-size: 25px;
-    color: orange;
-    background-size: auto;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    border: #00ff00 solid 3px;
 }
 
-.icsmottohead >p {
-    text-align: center;
-    color:#34ace0;
-    font-size:17px;
-    padding-top:5px;
-    
-}
 
-.icsmottohead > img {
-  width: 25%;
-  width: 113px;
-  height: 113px;
-  float: left;
-  margin-left: 10px;
-}
 
 
 footer {
