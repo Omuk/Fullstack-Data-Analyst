@@ -59,6 +59,10 @@ body{
 
   }
 
+  .goodogod > h2 {
+    color: orange;
+  }
+
 
 .readmore {
     height: fit-content;

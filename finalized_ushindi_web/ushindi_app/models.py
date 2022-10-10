@@ -13,7 +13,7 @@ class Testimony(models.Model):
     created_on = models.DateTimeField(auto_now_add=True)
     body = models.TextField()
    
-    image = models.ImageField(default='default.jpg', upload_to='profile_pic')
+    # image = models.ImageField(default='default.jpg', upload_to='profile_pic')
     
     status = models.CharField(max_length=13, choices=STATUS, default='Alumni')
 
