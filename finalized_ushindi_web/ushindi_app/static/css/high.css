@@ -61,9 +61,16 @@
     background-color: rgba(0,0,0,0.5);
   }
 
+  .commbody >h3 {
+    padding-top: 25px;
+    font-size: 55px;
+    font-family: 'Rosarivo', serif;
+  }
+
 
   .middiv {
     background-color: #fff;
+
    
   }
 
@@ -87,20 +94,23 @@
 
 
   .highabot >p {
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
     color:#34ace0;
-    padding-top:5px;
+    padding-top:1px;
+    font-family: 'Alegreya', serif;
+    
     
     
   }
   .highabot > h2 {
     text-align: center;
     align-items: center;
-    font-size: 40px;
+    font-size: 47px;
     color: orange;
     background-size: auto;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Frank Ruhl Libre', serif;
   }
 
 .highoff {
@@ -135,7 +145,10 @@
     justify-content: center;
     font-style: oblique;
     font-weight: bolder;
-    font-size: xx-large;
+    font-size: 40px;
+    font-family: 'Rosarivo', serif;
+    text-decoration: underline;
+    
   }
 
   .highprog > p {
@@ -148,7 +161,7 @@
 
 .icsmottohead {
     margin: 5px 0px 5px 3px;
-    height: 270px;
+    height: 370px;
     /* background-color: rgba(22,34,57,0.23);
     box-shadow:0px 0px 3px rgba(0,0,0,.5);*/
     background-color: rgba(22,34,57,0.99); 
@@ -158,10 +171,11 @@
 .icsmottohead > h5 {
     text-align: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 35px;
     color: orange;
     background-size: auto;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Frank Ruhl Libre', serif;
     
 }
 
@@ -169,21 +183,22 @@
     font-size: 10px;
     text-align: center;
     color:#34ace0;
-    font-size:17px;
+    font-size:22px;
     padding-top:5px;
+    font-family: 'Alegreya', serif;
     
 }
 
 .icsmottohead > img {
   
-  width: 180px;
-  height: auto;
+  /* width: 180px;
+  height: auto; */
   float: left;
   margin-left: 10px;
 }
 
 .highcurri { 
-    height: 700px;
+    height: auto;
     font-size: 15px;
     width: 95%; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

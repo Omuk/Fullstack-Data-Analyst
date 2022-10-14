@@ -51,6 +51,7 @@
     height: fit-content;
     color:#34ace0;
     padding-left: 20px;
+    padding-right: 20px;
     padding-top: 50px;
     padding-bottom: 250px;
     width: 100%;
@@ -58,16 +59,18 @@
     background-color: rgba(0,0,0,0.5);
 }
 
-.readmore > h2 {
+.readmore > div> h2 {
     font-size: 30px;
     color:orange;
     text-align: center;
-    border: #00ff00 solid 3px;
-}
-.readmore > p {
     
+}
+.readmore > div > p {
+    color:rgb(255, 222, 173);
+    color:white;
     text-align: center;
-    border: #00ff00 solid 3px;
+    font-size: 20px;
+    
 }
 
 

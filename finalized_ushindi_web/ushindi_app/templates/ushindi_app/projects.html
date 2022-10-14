@@ -45,16 +45,16 @@
 
 
 
-  <div class="goodogod">      
+  <div class="goodogod">  
+    <span><a href="{% url 'album' %}" class="btn btn-primary">Images</a></span>    
       <div class="row">
       {% for post in posts %}
-      <div class="col-sm-3 rowbox">
+      <div class="col-sm-4 rowbox">
       <div class="card">
           <div class="card-body icsmottohead">
           <h5 class="card-title">{{post.title}} - {{post.status}}</h5>
           <!-- <img src="{{post.image.url}}" alt="pic"> -->
-          <p class="card-text">{{post.body}}
-              <span><a href="{% url 'album' %}" class="btn btn-primary">Images</a></span>
+          <p class="card-text">{{post.body}}  
           </p>
     
     
@@ -63,6 +63,7 @@
       </div>
       {% endfor %}
       </div>
+      <span><a href="{% url 'album' %}" class="btn btn-primary">Images</a></span>
   </div>
 
 

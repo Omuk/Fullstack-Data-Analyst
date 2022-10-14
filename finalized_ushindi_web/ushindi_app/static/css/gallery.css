@@ -153,7 +153,7 @@ body{
     height: 380px;
     padding-left: 20px;
     padding-bottom: 10px;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
 } 
 
 .pics > h3 {
