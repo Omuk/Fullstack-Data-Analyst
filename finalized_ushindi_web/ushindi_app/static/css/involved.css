@@ -5,17 +5,12 @@
     height: 550px;
 }
    
-  .navb-custom > div {
-      display: flex;
-      justify-content: space-evenly;
-  }
-      
+
       
   .lownav {
         display: flex;
         justify-content: space-evenly;
   
-        
   }
     
   .lownav > .mainnav {
@@ -31,7 +26,6 @@
       color: #ffffff;
       font-size: 30px;
       font-family: 'Rosarivo', serif;
-      /* text-decoration: underline; */
       background-color: rgba(13,110,253,0.95);
   }
      

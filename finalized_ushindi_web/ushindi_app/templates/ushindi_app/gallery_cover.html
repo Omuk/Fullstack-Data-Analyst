@@ -15,7 +15,7 @@
     <script defer src="{% static 'js/app.js'%}"></script>
     
 
-    <title>Ushindi Children's Home</title>
+    <title>Photo Albums</title>
   </head>
   <body>
 
@@ -51,9 +51,9 @@
       <div class="col-sm-4">
         <div class="card">
           <div class="card-body picscover">
-            <!-- <img src="{{post.image.url}}" class="rounded-circle" alt="pic" width="150" height="150"> -->
+            
             <img src="{{post.image.url}}" alt="pic" width="200" height="150">
-            <!-- <h5 class="card-title">Song of The Promised Land by {{post.singer}} - {{post.status}} </h5> -->
+            
             <h5 class="card-title">{{post.title}}</h5>
             <p class="card-text">{{post.content}}</p>
             <a href="{% url 'pic_detail' post.id %}" class="btn btn-primary">More Pictures...</a>

@@ -4,12 +4,6 @@
 }
 
 
-.navb-custom > div {
-display: flex;
-justify-content: space-evenly;
-}
-
-
 .lownav {
   display: flex;
   justify-content: space-evenly;
@@ -30,7 +24,6 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 color: #ffffff;
 font-size: 30px;
 font-family: 'Rosarivo', serif;
-/* text-decoration: underline; */
 background-color: rgba(13,110,253,0.95);
 }
 
@@ -65,9 +58,7 @@ color: #ffffff;
   height: auto;
   padding-left: 20px;
   padding-top: 5px;
-  
   width: 98%;
-  /* margin-bottom: 0%; */
   margin-left: 10px;
   text-align: center;
   background-color: rgba(22,34,57,0.79);
@@ -77,11 +68,9 @@ color: #ffffff;
 
 
 .icsmottohead {
-  /* border: #952bb8 solid 5px; */
   width: 100%;
   height: 390px;
   margin-bottom: 2px;
-  /* padding-left: 10px; */
   background-color: rgba(22,34,57,0.95);
 }
 
@@ -111,8 +100,6 @@ color: #ffffff;
   margin-left: 10px;
   padding-bottom: 20px;
 }
-
-
 
 footer {
 background-color: rgba(0, 0, 0, 1);

@@ -1,16 +1,10 @@
 .topdiv {
     background: url('/static/images/coverimg/song_back1.jpg');
     background-size: cover;
-    height: 30%;
+    height: auto;
     
   }
-
-  .navb-custom > div {
-    display: flex;
-    justify-content: space-evenly;
-}
-    
-    
+  
 .lownav {
       display: flex;
       justify-content: space-evenly;
@@ -31,7 +25,6 @@
     color: #ffffff;
     font-size: 30px;
     font-family: 'Rosarivo', serif;
-    /* text-decoration: underline; */
     background-color: rgba(13,110,253,0.95);
 }
    
@@ -49,11 +42,10 @@
 
 .readmore {
     height: fit-content;
-    color:#34ace0;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 50px;
-    padding-bottom: 250px;
+    padding-bottom: 20px;
     width: 100%;
     text-align: center;
     background-color: rgba(0,0,0,0.5);
@@ -72,8 +64,6 @@
     font-size: 20px;
     
 }
-
-
 
 
 footer {

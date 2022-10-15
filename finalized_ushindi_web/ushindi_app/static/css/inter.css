@@ -1,10 +1,5 @@
 .topdiv {
-     /*background: url('/static/images/coverimg/ics49.jpg'), url('/static/images/coverimg/ics55.jpg');
-    background-position: left top, right top;
-     background-size: cover; 
-    background-repeat: no-repeat, no-repeat;
-    height: 20%;
-    */
+    
     background: url('/static/images/coverimg/inter1.jpeg');
      background-size: cover; 
     background-repeat: no-repeat;
@@ -13,12 +8,8 @@
 
 }
 
-.navb-custom > div {
-    display: flex;
-    justify-content: space-evenly;
-}
-    
 
+    
 .mainnav {
     display: flex;
     justify-content: space-evenly;
@@ -38,9 +29,9 @@
     color: #ffffff;
     font-size: 30px;
     font-family: 'Rosarivo', serif;
-    /* text-decoration: underline; */
     background-color: rgba(13,110,253,0.95);
     margin-bottom: 0px;
+    
 
 }
    
@@ -55,8 +46,6 @@
     color: #ffffff;
 }
   
-  
-
 
 .commbody {
     height: 530px;
@@ -69,6 +58,7 @@
     text-align: center;
     background-color: rgba(0,0,0,0.5); 
     font-size: 500px;
+    
 }
 .commbody > h3 {
     font-size: 40px;
