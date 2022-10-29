@@ -226,3 +226,776 @@ box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0,
 vertical-align: -.125em;
 fill: currentColor;
 }
+
+@media screen and (max-width: 430px) { 
+  .topdiv {
+        
+        background: none;
+        background-size: contain;
+        background-color: rgba(13,110,253,0.95);
+       
+      }
+  .mainnav { 
+          
+          padding-bottom: 0px;
+          padding-top: 0px;
+      }
+  .btnnav { 
+      
+      margin-top: 0%;
+      margin-bottom: 0px;
+      
+  }
+ 
+  .btnnav > li {
+        text-decoration: underline;
+       
+        
+  }
+
+
+  .commbody { 
+        background-image: url('/static/images/coverimg/high8.jpg');
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-top: 160px;
+        padding-left: 0px;
+        color: rgb(0,255,255);
+        
+        
+        
+  }
+  .commbody > h3 { 
+        background-color: rgba(0,0,0,0.3);
+        font-size: 20px;
+        margin-top: 40px;
+        
+  }
+  footer > .copi { 
+        font-size: 10px;
+        
+        
+  }
+  .middiv {
+        
+        background-size: contain;
+        height: auto;
+  
+  }
+
+  .interaward {
+      height: auto;
+      width: 100%;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color:#fff;
+      padding-top: 10px;
+      margin: 0px 15% 5px 1%;
+      color:#fff;
+      padding:30px 20px;
+      box-shadow:0px 0px 10px rgba(0,0,0,.5);
+      
+      
+      
+  }
+  .interaward >p {
+      text-align: left;
+      color:#a934e0;
+      color: black;
+      font-size:23px;
+      padding-top:5px;
+      
+  }
+  .interaward > h2 {
+      text-align: center;
+      align-items: center;
+      font-size: 50px;
+      color: orange;
+      background-size: auto;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .icsmottohead {
+      border: #952bb8 solid 1px;
+      margin: 5px 0px 5px 3px;
+      height: 300px;
+      box-shadow:0px 0px 3px rgba(0,0,0,.5);
+      background-color: rgba(22,34,57,0.99);
+      
+    }
+
+   
+  .icsmottohead > h5 {
+      text-align: center;
+      align-items: center;
+      font-size: 30px;
+      color: orange;
+      background-size: auto;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .icsmottohead >p {
+      font-size: 10px;
+      text-align: center;
+      color:#34ace0;
+      font-size:17px;
+      padding-top:5px;
+      
+  }
+  
+  .icsmottohead > img {
+    float: left;
+    margin-left: 10px;
+    border-radius: 50px;
+  }
+  .highcurri { 
+    height: auto;
+    font-size: 15px;
+    width: 95%; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#34ace0;
+    margin: 15px 1% 0px 2%;
+    box-shadow:0px 0px 10px rgba(0,0,0,.5); 
+  }
+
+  .highcurri > h3 {
+    display: flex;
+    justify-content: center;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+  }
+
+  .highcurri > p {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    font-size: 20px;
+    
+  }
+
+ 
+}
+
+@media (min-width: 431px) and (max-width: 575px) { 
+  .topdiv {
+        
+    background: none;
+    background-size: contain;
+    background-color: rgba(13,110,253,0.95);
+   
+  }
+.mainnav { 
+      
+      padding-bottom: 0px;
+      padding-top: 0px;
+  }
+.btnnav { 
+  
+  margin-top: 0%;
+  margin-bottom: 0px;
+  
+}
+
+.btnnav > li {
+    text-decoration: underline;
+   
+    
+}
+
+
+.commbody { 
+    background-image: url('/static/images/coverimg/high8.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 160px;
+    padding-left: 0px;
+    color: rgb(0,255,255);
+    
+    
+    
+}
+.commbody > h3 { 
+    background-color: rgba(0,0,0,0.3);
+    font-size: 20px;
+    margin-top: 90px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+footer > .copi { 
+    font-size: 10px;
+    
+    
+}
+.middiv {
+    
+    background-size: contain;
+    height: auto;
+
+}
+
+.interaward {
+  height: auto;
+  width: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:#fff;
+  padding-top: 10px;
+  margin: 0px 15% 5px 1%;
+  color:#fff;
+  padding:30px 20px;
+  box-shadow:0px 0px 10px rgba(0,0,0,.5);
+  
+  
+  
+}
+.interaward >p {
+  text-align: left;
+  color:#a934e0;
+  color: black;
+  font-size:23px;
+  padding-top:5px;
+  
+}
+.interaward > h2 {
+  text-align: center;
+  align-items: center;
+  font-size: 50px;
+  color: orange;
+  background-size: auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.icsmottohead {
+  border: #952bb8 solid 1px;
+  margin: 5px 0px 5px 3px;
+  height: 300px;
+  box-shadow:0px 0px 3px rgba(0,0,0,.5);
+  background-color: rgba(22,34,57,0.99);
+  
+}
+
+
+.icsmottohead > h5 {
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+  color: orange;
+  background-size: auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.icsmottohead >p {
+  font-size: 10px;
+  text-align: center;
+  color:#34ace0;
+  font-size:17px;
+  padding-top:5px;
+  
+}
+
+.icsmottohead > img {
+float: left;
+margin-left: 10px;
+border-radius: 50px;
+}
+.highcurri { 
+height: auto;
+font-size: 15px;
+width: 95%; 
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color:#34ace0;
+margin: 15px 1% 0px 2%;
+box-shadow:0px 0px 10px rgba(0,0,0,.5); 
+}
+
+.highcurri > h3 {
+display: flex;
+justify-content: center;
+font-style: oblique;
+font-weight: bolder;
+font-size: xx-large;
+text-align: center;
+}
+
+.highcurri > p {
+display: flex;
+justify-content: center;
+text-align: left;
+font-size: 20px;
+
+}
+}
+
+@media (min-width: 576px) and (max-width: 800px) { 
+  .topdiv {
+        
+    background: none;
+    background-size: contain;
+    background-color: rgba(13,110,253,0.95);
+   
+  }
+.mainnav { 
+      
+      padding-bottom: 0px;
+      padding-top: 0px;
+  }
+.btnnav { 
+  
+  margin-top: 0%;
+  margin-bottom: 0px;
+  
+}
+
+.btnnav > li {
+    text-decoration: underline;
+   
+    
+}
+
+
+.commbody { 
+    background-image: url('/static/images/coverimg/high8.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 160px;
+    padding-left: 0px;
+    color: rgb(0,255,255);
+    
+    
+    
+}
+.commbody > h3 { 
+    background-color: rgba(0,0,0,0.3);
+    font-size: 20px;
+    margin-top: 90px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+footer > .copi { 
+    font-size: 10px;
+    
+    
+}
+.middiv {
+    
+    background-size: contain;
+    height: auto;
+
+}
+
+
+
+.highprog {
+  height: auto;
+  font-size: 15px;
+  width: 100%; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:#34ace0;
+  /* margin: 15px 0% 0px 0%; */
+  box-shadow:0px 0px 7px rgba(0,0,0,.5);
+  
+   
+  
+}
+.highprog > h3 {
+  display: flex;
+  justify-content: center;
+  font-style: oblique;
+  font-weight: bolder;
+  font-size: 40px;
+  font-family: 'Rosarivo', serif;
+  text-decoration: underline;
+  
+}
+
+
+.icsmottohead {
+  border: #952bb8 solid 1px;
+  /* margin: 5px 0px 5px 3px; */
+  margin: 0px 5px 0px 0px;
+  width: 190px;
+  height: 310px;
+  box-shadow:0px 0px 3px rgba(0,0,0,.5);
+  background-color: rgba(22,34,57,0.99);
+  
+}
+
+.icsmottohead > h5 {
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+  color: orange;
+  background-size: auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.icsmottohead >p {
+  font-size: 10px;
+  text-align: left;
+  color:#34ace0;
+  font-size:12px;
+  padding-top:5px;
+  /* float: bottom; */
+  
+}
+
+.icsmottohead > img {
+/* float: left; */
+margin-left: 0px;
+border-radius: 50px;
+width: 100px;
+height: 100px;
+}
+
+
+.highcurri { 
+height: auto;
+font-size: 15px;
+width: 100%; 
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color:#34ace0;
+/* margin: 15px 1% 0px 2%; */
+box-shadow:0px 0px 10px rgba(0,0,0,.5); 
+}
+
+.highcurri > h3 {
+display: flex;
+justify-content: center;
+font-style: oblique;
+font-weight: bolder;
+font-size: xx-large;
+text-align: center;
+}
+
+.highcurri > p {
+display: flex;
+justify-content: center;
+text-align: left;
+font-size: 20px;
+
+}
+}
+
+
+@media (min-width: 631px) and (max-width: 800px) {
+  .topdiv {
+        
+    background: none;
+    background-size: contain;
+    background-color: rgba(13,110,253,0.95);
+   
+  }
+.mainnav { 
+      
+      padding-bottom: 0px;
+      padding-top: 0px;
+  }
+.btnnav { 
+  
+  margin-top: 0%;
+  margin-bottom: 0px;
+  
+}
+
+.btnnav > li {
+    text-decoration: underline;
+   
+    
+}
+
+
+.commbody { 
+    background-image: url('/static/images/coverimg/high8.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 330px;
+    padding-bottom: 0px;
+    padding-top: 210px;
+    padding-left: 0px;
+    color: rgb(0,255,255);
+    
+    
+    
+}
+.commbody > h3 { 
+    background-color: rgba(0,0,0,0.3);
+    font-size: 20px;
+    margin-top: 90px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+footer > .copi { 
+    font-size: 10px;
+    
+    
+}
+.middiv {
+    
+    background-size: contain;
+    height: auto;
+
+}
+
+
+
+.highprog {
+  height: auto;
+  font-size: 15px;
+  width: 100%; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:#34ace0;
+  /* margin: 15px 0% 0px 0%; */
+  box-shadow:0px 0px 7px rgba(0,0,0,.5);
+  
+   
+  
+}
+.highprog > h3 {
+  display: flex;
+  justify-content: center;
+  font-style: oblique;
+  font-weight: bolder;
+  font-size: 40px;
+  font-family: 'Rosarivo', serif;
+  text-decoration: underline;
+  
+}
+
+
+.icsmottohead {
+  border: #952bb8 solid 1px;
+  /* margin: 5px 0px 5px 3px; */
+  margin: 0px 5px 0px 0px;
+  margin-right: 0%;
+  width: 190px;
+  width: fit-content;
+  height: 310px;
+  box-shadow:0px 0px 3px rgba(0,0,0,.5);
+  background-color: rgba(22,34,57,0.99);
+  
+}
+
+.icsmottohead > h5 {
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+  color: orange;
+  background-size: auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.icsmottohead >p {
+ 
+  text-align: left;
+  color:#34ace0;
+  font-size:15px;
+  padding-top:5px;
+  /* float: bottom; */
+  
+}
+
+.icsmottohead > img {
+/* float: left; */
+margin-left: 0px;
+border-radius: 50px;
+width: 100px;
+height: 100px;
+}
+
+
+.highcurri { 
+height: auto;
+font-size: 15px;
+width: 100%; 
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color:#34ace0;
+/* margin: 15px 1% 0px 2%; */
+box-shadow:0px 0px 10px rgba(0,0,0,.5); 
+}
+
+.highcurri > h3 {
+display: flex;
+justify-content: center;
+font-style: oblique;
+font-weight: bolder;
+font-size: xx-large;
+text-align: center;
+}
+
+.highcurri > p {
+display: flex;
+justify-content: center;
+text-align: left;
+font-size: 20px;
+
+}
+} 
+
+
+@media (min-width: 801px) and (max-width: 1023px) { 
+  .topdiv {
+        
+    background: none;
+    background-size: contain;
+    background-color: rgba(13,110,253,0.95);
+   
+  }
+.mainnav { 
+      
+      padding-bottom: 0px;
+      padding-top: 0px;
+  }
+.btnnav { 
+  
+  margin-top: 0%;
+  margin-bottom: 0px;
+  
+}
+
+.btnnav > li {
+    text-decoration: underline;
+   
+    
+}
+
+
+.commbody { 
+    background-image: url('/static/images/coverimg/high8.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 330px;
+    padding-bottom: 0px;
+    padding-top: 210px;
+    padding-left: 0px;
+    color: rgb(0,255,255);
+    margin-top: 0%;
+    
+    
+    
+}
+.commbody > h3 { 
+    background-color: rgba(0,0,0,0.3);
+    font-size: 20px;
+    margin-top: 90px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+footer > .copi { 
+    font-size: 10px;
+    
+    
+}
+.middiv {
+    
+    background-size: contain;
+    height: auto;
+
+}
+
+
+
+.highprog {
+  height: auto;
+  font-size: 15px;
+  width: 100%; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:#34ace0;
+  /* margin: 15px 0% 0px 0%; */
+  box-shadow:0px 0px 7px rgba(0,0,0,.5);
+  
+   
+  
+}
+.highprog > h3 {
+  display: flex;
+  justify-content: center;
+  font-style: oblique;
+  font-weight: bolder;
+  font-size: 40px;
+  font-family: 'Rosarivo', serif;
+  text-decoration: underline;
+  
+}
+
+
+.icsmottohead {
+  border: #952bb8 solid 1px;
+  /* margin: 5px 0px 5px 3px; */
+  margin: 0px 5px 0px 0px;
+  margin-right: 0%;
+  width: 190px;
+  width: fit-content;
+  height: 310px;
+  box-shadow:0px 0px 3px rgba(0,0,0,.5);
+  background-color: rgba(22,34,57,0.99);
+  
+}
+
+.icsmottohead > h5 {
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+  color: orange;
+  background-size: auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.icsmottohead >p {
+ 
+  text-align: left;
+  color:#34ace0;
+  font-size:17px;
+  padding-top:5px;
+  /* float: bottom; */
+  
+}
+
+.icsmottohead > img {
+/* float: left; */
+margin-left: 0px;
+border-radius: 50px;
+width: 100px;
+height: 100px;
+}
+
+
+.highcurri { 
+height: auto;
+font-size: 15px;
+width: 100%; 
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color:#34ace0;
+/* margin: 15px 1% 0px 2%; */
+box-shadow:0px 0px 10px rgba(0,0,0,.5); 
+}
+
+.highcurri > h3 {
+display: flex;
+justify-content: center;
+font-style: oblique;
+font-weight: bolder;
+font-size: xx-large;
+text-align: center;
+}
+
+.highcurri > p {
+display: flex;
+justify-content: center;
+text-align: left;
+font-size: 20px;
+
+}
+} 

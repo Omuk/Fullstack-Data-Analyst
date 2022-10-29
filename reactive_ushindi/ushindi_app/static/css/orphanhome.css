@@ -123,3 +123,183 @@ footer > .copi {
   vertical-align: -.125em;
   fill: currentColor;
 }
+
+@media screen and (max-width: 430px) { 
+      .topdiv {
+            
+            background: none;
+            background-size: contain;
+            background-color: rgba(13,110,253,0.95);
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+          }
+     
+      .btnnav > li {
+            text-decoration: underline;
+           
+            
+      }
+
+      .commbody { 
+            background-image: url('/static/images/coverimg/ushfarm.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            width: 100%;
+            height: 90%;
+            padding-top: 100px;
+            padding-left: 0px;
+            color: rgb(0,255,255);
+            margin-top: 0px;
+            
+      }
+      .commbody > h3 { 
+            background-color: rgba(0,0,0,0.3);
+            font-size: 20px;
+            
+      }
+      footer > .copi { 
+            font-size: 10px;
+            
+            
+      }
+      .middiv {
+            /* background: url('/static/images/coverimg/mom22.jpg'); */
+            background-size: contain;
+            height: auto;
+      
+      }
+      .aboutush {
+            height: auto;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(0,0,0,0.5);
+            padding:2px 20px;
+            padding-left: 0px;
+             
+            
+      }
+      .aboutush > h6 {
+            text-align: left;
+            padding-bottom: 50px;
+            
+      }
+      .aboutush >p {
+            text-align: left;
+            color: #87CEFA;
+            font-size:28px;
+            
+      }
+      .aboutus {
+            height: auto;
+            padding-left: 0px;
+            background-color: rgba(0,0,0,0.5);
+            
+            
+      }
+      .aboutus > h2 {
+            text-align: center;
+            align-items: center;
+            font-size: 55px;
+            color: orange;
+            font-family: 'Tangerine', serif;
+            font-weight: bolder;
+      }
+        
+      .aboutus >p {
+            text-align: left;
+            color: #87CEFA;
+            font-size:28px;
+            font-family: 'Dancing Script';
+      
+      }
+      
+}
+
+@media (min-width: 430px) and (max-width: 768px) { 
+      .topdiv {
+            
+            background: none;
+            background-size: contain;
+            background-color: rgba(13,110,253,0.95);
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+          }
+     
+      .btnnav > li {
+            text-decoration: underline;
+           
+            
+      }
+
+      .commbody { 
+            background-image: url('/static/images/coverimg/ushfarm.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            width: 100%;
+            height: 90%;
+            padding-top: 100px;
+            padding-left: 0px;
+            color: rgb(0,255,255);
+            margin-top: 0px;
+            
+      }
+      .commbody > h3 { 
+            background-color: rgba(0,0,0,0.3);
+            font-size: 20px;
+            margin-top: 5%;
+            
+      }
+      footer > .copi { 
+            font-size: 10px;
+            
+            
+      }
+      .middiv {
+            /* background: url('/static/images/coverimg/mom22.jpg'); */
+            background-size: contain;
+            height: auto;
+      
+      }
+      .aboutush {
+            height: auto;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(0,0,0,0.5);
+            padding:2px 20px;
+            padding-left: 0px;
+             
+            
+      }
+      .aboutush > h6 {
+            text-align: left;
+            padding-bottom: 50px;
+            
+      }
+      .aboutush >p {
+            text-align: left;
+            color: #87CEFA;
+            font-size:28px;
+            
+      }
+      .aboutus {
+            height: auto;
+            padding-left: 0px;
+            background-color: rgba(0,0,0,0.5);
+            
+            
+      }
+      .aboutus > h2 {
+            text-align: center;
+            align-items: center;
+            font-size: 55px;
+            color: orange;
+            font-family: 'Tangerine', serif;
+            font-weight: bolder;
+      }
+        
+      .aboutus >p {
+            text-align: left;
+            color: #87CEFA;
+            font-size:28px;
+            font-family: 'Dancing Script';
+      
+      }
+}

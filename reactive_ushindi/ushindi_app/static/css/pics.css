@@ -82,7 +82,118 @@ vertical-align: -.125em;
 fill: currentColor;
 }
 
+@media screen and (max-width: 430px) { 
+  
+  .mainnav { 
+          
+          padding-bottom: 0px;
+          padding-top: 0px;
+      }
+  .btnnav { 
+      
+      margin-top: 0%;
+      margin-bottom: 0px;
+      
+  }
+ 
+  .btnnav > li {
+        text-decoration: underline;
+    
+  }
 
+  .morepics {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 10%;
+    
+}
+
+.morepics > a {
+  padding-left: 10px;
+}
+
+.morepics > .pics >img {
+  padding-right:5%;
+  padding-left: 0%;
+  margin-bottom: 8px;
+  margin-left: 0%;
+  margin-right: 14%;
+}
+
+}
+
+@media (min-width: 430px) and (max-width: 768px) {
+  .mainnav { 
+          
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+.btnnav { 
+
+  margin-top: 0%;
+  margin-bottom: 0px;
+
+  }
+
+.btnnav > li {
+  text-decoration: underline;
+
+}
+.morepics {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 10%;
+  
+}
+
+.morepics > a {
+padding-left: 10px;
+}
+
+.morepics > .pics >img {
+padding-right:5%;
+padding-left: 0%;
+margin-bottom: 8px;
+margin-left: 0%;
+margin-right: 14%;
+width: 100%;
+height: auto;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) { 
+     
+  .btnnav > li {
+    text-decoration: underline;
+   
+    
+  }
+  .morepics {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 0%;
+    
+  }
+  
+  .morepics > a {
+  padding-left: 10px;
+  }
+  
+  .morepics > .pics >img {
+  padding-right:5%;
+  padding-left: 0%;
+  margin-bottom: 8px;
+  margin-left: 0%;
+  margin-right: 14%;
+  width: 100%;
+  height: auto;
+  }
+  }
+
+  
+  footer > .copi { 
+  font-size: 15px;
+  }
 
 
 

@@ -161,7 +161,7 @@
 .icsmottohead {
     border: #952bb8 solid 1px;
     margin: 5px 0px 5px 3px;
-    height: 240px;
+    height: 320px;
     box-shadow:0px 0px 3px rgba(0,0,0,.5);
     background-color: rgba(22,34,57,0.99);
     
@@ -176,42 +176,20 @@
 }
 
 .icsmottohead >p {
-    font-size: 10px;
     text-align: center;
     color:#34ace0;
-    font-size:17px;
+    font-size: 15px;
     padding-top:5px;
     
 }
  
-.icsmottohead > h5 {
-    text-align: center;
-    align-items: center;
-    font-size: 30px;
-    color: orange;
-    background-size: auto;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.icsmottohead >p {
-    font-size: 10px;
-    text-align: center;
-    color:#34ace0;
-    font-size:17px;
-    padding-top:5px;
-    
-}
-
 .icsmottohead > img {
-  /* width: 25%;
-  width: 120px;
-  height: 120px; */
-  /* width: 113px;
-  height: 113px; */
   float: left;
   margin-left: 10px;
   border-radius: 50px;
 }
+
+
 .curriculum > p {
   width: 25%;
   float: right;
@@ -246,3 +224,493 @@ box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0,
 vertical-align: -.125em;
 fill: currentColor;
 }
+
+@media screen and (max-width: 430px) { 
+    .topdiv {
+          
+          background: none;
+          background-size: contain;
+          background-color: rgba(13,110,253,0.95);
+          margin-bottom: 0px;
+          padding-bottom: 0px;
+          padding-top: 0px;
+         
+        }
+    .mainnav { 
+            
+            padding-bottom: 0px;
+            padding-top: 0px;
+        }
+    .btnnav { 
+        
+        margin-top: 0%;
+        margin-bottom: 0px;
+        
+    }
+   
+    .btnnav > li {
+          text-decoration: underline;
+         
+          
+    }
+  
+    .commbody { 
+          background-image: url('/static/images/coverimg/inter1.jpeg');
+          background-repeat: no-repeat;
+          background-size: 190%;
+          width: 100%;
+          height: 100%;
+          padding-top: 100px;
+          padding-left: 0px;
+          color: rgb(0,255,255);
+          
+    }
+    .commbody > h3 { 
+          background-color: rgba(0,0,0,0.3);
+          font-size: 20px;
+          margin-top: 100px;
+          
+    }
+    footer > .copi { 
+          font-size: 10px;
+          
+          
+    }
+    .middiv {
+          
+          background-size: contain;
+          height: auto;
+    
+    }
+
+    .interaward {
+        height: auto;
+        width: 100%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:#fff;
+        padding-top: 10px;
+        margin: 0px 15% 5px 1%;
+        color:#fff;
+        padding:30px 20px;
+        box-shadow:0px 0px 10px rgba(0,0,0,.5);
+        
+    }
+    .interaward >p {
+        text-align: left;
+        color:#a934e0;
+        color: black;
+        font-size:23px;
+        padding-top:5px;
+        
+    }
+    .interaward > h2 {
+        text-align: center;
+        align-items: center;
+        font-size: 50px;
+        color: orange;
+        background-size: auto;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .icsmottohead {
+        border: #952bb8 solid 1px;
+        margin: 5px 0px 5px 3px;
+        height: 300px;
+        box-shadow:0px 0px 3px rgba(0,0,0,.5);
+        background-color: rgba(22,34,57,0.99);
+        
+      }
+    .icsmottohead > h5 {
+        text-align: center;
+        align-items: center;
+        font-size: 30px;
+        color: orange;
+        background-size: auto;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .icsmottohead >p {
+        font-size: 10px;
+        text-align: center;
+        color:#34ace0;
+        font-size:17px;
+        padding-top:5px;
+        
+    }
+     
+    .icsmottohead > img {
+      float: left;
+      margin-left: 10px;
+      border-radius: 50px;
+    }
+
+   
+}
+
+@media (min-width: 431px) and (max-width: 575px) { 
+    .topdiv {
+          
+        background: none;
+        background-size: contain;
+        background-color: rgba(13,110,253,0.95);
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+       
+      }
+  .mainnav { 
+          
+          padding-bottom: 0px;
+          padding-top: 0px;
+      }
+  .btnnav { 
+      
+      margin-top: 0%;
+      margin-bottom: 0px;
+      
+  }
+ 
+  .btnnav > li {
+        text-decoration: underline;
+           
+  }
+  .commbody { 
+        background-image: url('/static/images/coverimg/inter1.jpeg');
+        background-repeat: no-repeat;
+        background-size: 190%;
+        width: 100%;
+        height: 100%;
+        padding-top: 100px;
+        padding-left: 0px;
+        color: rgb(0,255,255);
+        
+  }
+  .commbody > h3 { 
+        background-color: rgba(0,0,0,0.3);
+        font-size: 20px;
+        margin-top: 200px;
+        
+  }
+  footer > .copi { 
+        font-size: 10px;
+        
+        
+  }
+  .middiv {
+        
+        background-size: contain;
+        height: auto;
+  
+  }
+
+  .interaward {
+      height: auto;
+      width: 100%;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color:#fff;
+      padding-top: 10px;
+      margin: 0px 15% 5px 1%;
+      color:#fff;
+      padding:30px 20px;
+      box-shadow:0px 0px 10px rgba(0,0,0,.5);
+      
+      
+      
+  }
+  .interaward >p {
+      text-align: left;
+      color:#a934e0;
+      color: black;
+      font-size:23px;
+      padding-top:5px;
+      
+  }
+  .interaward > h2 {
+      text-align: center;
+      align-items: center;
+      font-size: 50px;
+      color: orange;
+      background-size: auto;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .icsmottohead {
+      border: #952bb8 solid 1px;
+      margin: 5px 0px 5px 3px;
+      height: 280px;
+      box-shadow:0px 0px 3px rgba(0,0,0,.5);
+      background-color: rgba(22,34,57,0.99);
+      
+    }
+  .icsmottohead > h5 {
+      text-align: center;
+      align-items: center;
+      font-size: 30px;
+      color: orange;
+      background-size: auto;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .icsmottohead >p {
+      font-size: 10px;
+      text-align: center;
+      color:#34ace0;
+      font-size:17px;
+      padding-top:5px;
+      
+  }
+   
+  
+  
+  .icsmottohead > img {
+    float: left;
+    margin-left: 10px;
+    border-radius: 50px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 800px) { 
+    .topdiv {
+          
+        background: none;
+        background-size: contain;
+        background-color: rgba(13,110,253,0.95);
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+       
+      }
+  .mainnav { 
+          
+          padding-bottom: 0px;
+          padding-top: 0px;
+      }
+  .btnnav { 
+      margin-top: 0%;
+      margin-bottom: 0px;
+      
+  }
+ 
+  .btnnav > li {
+        text-decoration: underline;   
+  }
+
+  .commbody { 
+        background-image: url('/static/images/coverimg/inter1.jpeg');
+        background-repeat: no-repeat;
+        background-size: 190%;
+        width: 100%;
+        height: 100%;
+        padding-top: 100px;
+        padding-left: 0px;
+        color: rgb(0,255,255);
+        
+  }
+  .commbody > h3 { 
+        background-color: rgba(0,0,0,0.3);
+        font-size: 20px;
+        margin-top: 200px;
+        
+  }
+  footer > .copi { 
+        font-size: 10px;
+        
+        
+  }
+  .middiv {
+        
+        background-size: contain;
+        height: auto;
+  
+  }
+
+  .interaward {
+      height: auto;
+      width: 100%;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color:#fff;
+      padding-top: 10px;
+      margin: 0px 15% 5px 1%;
+      color:#fff;
+      padding:30px 20px;
+      box-shadow:0px 0px 10px rgba(0,0,0,.5);
+      
+      
+      
+  }
+  .interaward >p {
+      text-align: left;
+      color:#a934e0;
+      color: black;
+      font-size:23px;
+      padding-top:5px;
+      
+  }
+  .interaward > h2 {
+      text-align: center;
+      align-items: center;
+      font-size: 50px;
+      color: orange;
+      background-size: auto;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .icsmottohead {
+      border: #952bb8 solid 1px;
+      margin: 5px 0px 5px 3px;
+      height: 280px;
+      box-shadow:0px 0px 3px rgba(0,0,0,.5);
+      background-color: rgba(22,34,57,0.99);
+      
+    }
+  
+  .icsmottohead > h5 {
+      text-align: center;
+      align-items: center;
+      font-size: 20px;
+      color: orange;
+      background-size: auto;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .icsmottohead >p {
+      font-size: 10px;
+      text-align: center;
+      color:#34ace0;
+      font-size:12px;
+      padding-top:5px;
+      
+  }
+  
+  .icsmottohead > img {
+    float: left;
+    margin-left: 10px;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1023px) { 
+    .topdiv {
+          
+        background: none;
+        background-size: contain;
+        background-color: rgba(13,110,253,0.95);
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+       
+      }
+  .mainnav { 
+          
+          padding-bottom: 0px;
+          padding-top: 0px;
+      }
+  .btnnav { 
+      margin-top: 0%;
+      margin-bottom: 0px;
+      
+  }
+ 
+  .btnnav > li {
+        text-decoration: underline;   
+  }
+
+  .commbody { 
+        background-image: url('/static/images/coverimg/inter1.jpeg');
+        background-repeat: no-repeat;
+        background-size: 190%;
+        width: 100%;
+        height: 100%;
+        padding-top: 100px;
+        padding-left: 0px;
+        color: rgb(0,255,255);
+        
+        
+  }
+  .commbody > h3 { 
+        background-color: rgba(0,0,0,0.3);
+        font-size: 20px;
+        margin-top: 200px;
+        
+  }
+  footer > .copi { 
+        font-size: 20px;
+        
+        
+  }
+  .middiv {
+        
+        background-size: contain;
+        height: auto;
+  
+  }
+
+  .interaward {
+      height: auto;
+      width: 100%;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color:#fff;
+      padding-top: 10px;
+      margin: 0px 15% 5px 1%;
+      color:#fff;
+      padding:30px 20px;
+      box-shadow:0px 0px 10px rgba(0,0,0,.5);
+      
+      
+      
+  }
+  .interaward >p {
+      text-align: left;
+      color:#a934e0;
+      color: black;
+      font-size:23px;
+      padding-top:5px;
+      
+  }
+  .interaward > h2 {
+      text-align: center;
+      align-items: center;
+      font-size: 50px;
+      color: orange;
+      background-size: auto;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .icsmottohead {
+      border: #952bb8 solid 1px;
+      margin: 5px 0px 5px 3px;
+      height: 280px;
+      box-shadow:0px 0px 3px rgba(0,0,0,.5);
+      background-color: rgba(22,34,57,0.99);
+      
+    }
+ 
+  .icsmottohead > h5 {
+      text-align: center;
+      align-items: center;
+      font-size: 20px;
+      color: orange;
+      background-size: auto;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .icsmottohead >p {
+      text-align: center;
+      color:#34ace0;
+      font-size:15px;
+      padding-top:5px;
+      
+  }
+  
+  .icsmottohead > img {
+    float: left;
+    margin-left: 10px;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+
