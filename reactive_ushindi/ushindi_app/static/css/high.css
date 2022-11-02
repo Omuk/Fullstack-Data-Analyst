@@ -533,7 +533,7 @@ font-size: 20px;
 }
 }
 
-@media (min-width: 576px) and (max-width: 800px) { 
+@media (min-width: 576px) and (max-width: 630px) { 
   .topdiv {
         
     background: none;
@@ -875,12 +875,12 @@ font-size: 20px;
     background-image: url('/static/images/coverimg/high8.jpg');
     background-size: cover;
     width: 100%;
-    height: 330px;
+    height: 490px;
     padding-bottom: 0px;
     padding-top: 210px;
     padding-left: 0px;
     color: rgb(0,255,255);
-    margin-top: 0%;
+    margin-top: 0px;
     
     
     

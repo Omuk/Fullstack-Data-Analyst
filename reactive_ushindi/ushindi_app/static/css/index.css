@@ -179,6 +179,9 @@ footer > .copi {
             background-color: rgba(0,0,0,0.3);
             
       }
+      footer { 
+            margin-top: 0px;
+      }
       footer > .copi { 
             font-size: 10px;
             
@@ -188,6 +191,7 @@ footer > .copi {
             /* background: url('/static/images/coverimg/mom22.jpg'); */
             background-size: contain;
             height: auto;
+            margin-bottom: 0px;
       
       }
       .aboutush {
@@ -301,6 +305,7 @@ footer > .copi {
             height: auto;
             padding-left: 0px;
             background-color: rgba(0,0,0,0.5);
+            margin-bottom: 0px;
             
             
       }
@@ -320,6 +325,20 @@ footer > .copi {
             font-family: 'Dancing Script';
       
       }
+
+    
+}
+
+
+@media (min-width: 769px) and (max-width: 991px) { 
+      
+            
+      }
+      footer > .copi { 
+            font-size: 13px;
+            
+            
+    
 
     
 }
