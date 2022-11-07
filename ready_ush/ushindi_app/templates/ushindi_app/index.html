@@ -1,0 +1,160 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+
+    <script defer src="{% static 'js/app.js'%}"></script>
+    
+
+    <title>Ushindi Life International, Inc</title>
+  </head>
+  <body>
+
+
+    <div class="topdiv">
+
+
+              <div class="lownav">
+                  <nav class="navbar navbar-custom mainnav">
+                    <header class="d-flex flex-wrap justify-content-center py-2 mb-0">
+                        <ul class="nav nav-pills btnnav">
+                            <li class="nav-item"><a href="{% url 'orphanhome' %}" class="nav-link text-white" aria-current="page">The Orphanage</a></li>
+                            <li class="nav-item"><a href="{% url 'ics' %}" class="nav-link text-white">Intermountain Christian School</a></li>
+                            <li class="nav-item"><a href="{% url 'high' %}" class="nav-link text-white">Kambiri Victory High</a></li>
+                            <li class="nav-item"><a href="{% url 'song' %}" class="nav-link text-white">The Goodness of God</a></li>
+                            <li class="nav-item"><a href="{% url 'involved' %}" class="nav-link text-white">Get Involved</a></li>
+                        </ul>
+                    </header>
+                  </nav>
+              </div>
+
+              <div class="commbody">
+                <h3>A Now Common Sighting of The Past and The Future in One Location - CIRCA 2021</h3>
+                  <div class="proj_richus">
+                    <a class="btn btn-success"  href="mailto:ushindilife@gmail.com">CONTACT US</a>
+                    <a class="btn btn-primary"  href="{% url 'projects' %}">PROJECTS</a>
+                   
+    
+                  </div>
+              </div>
+
+    </div>
+
+    <div class="middiv">
+
+
+
+
+        <div class="aboutush">
+            <h2>About Us</h2>
+            <h6>A religious non profit with a mission of spreading the Gospel of Jesus Christ through preaching and acts of showing compassion to those in need.</h6>
+           
+            <p>We exists to meet the needs of the Orphans, Abandoned, Neglected, Abused or Poor children, the poor and widowed in our communities.  Goals are met through building Self-Sustaining orphanages, provision of nutritious food, clothing, shelter, skills training and christian discipleship</p>
+            
+            
+        </div>
+
+        <div class="aboutus">
+          <h2>Our Story</h2>
+                    <p>
+                    Shortly after receiving the Lord in 1987, Our Founders Bishop Justus and Jane Amunga were so excited and sought to share the message in the community. Witnessing the struggles, the Orphans, Widows and the poor underwent/undergo, they listened and began trusting God for His appointed time of Answering the Call of establishing the current ministry.
+                    </p>
+                    <p>
+                      In 2001 the Ushindi Children’s Home was Established with 81 kids. Ever since, the home has offered food, shelter, quality primary and secondary education, clothes, and healthcare to over 500 children.
+                    </p>
+                    <p>
+                      In 2012 the founders established Victory High Academy, a school offering affordable yet high quality education to high school students.
+                    </p>
+                    <p>
+                      Intermountain Christian School (ICS) was established in 2015 to offer Affordable yet High Quality Education to children in the Community. Starting with only 2 students, the school has expanded to cater for over 500 students annually.
+                    </p>
+                    <p>
+                      In 2020, Bishop Justus Amunga, The Ministries Founder, A man of Great Faith and a Faithfull Servant of God with a character of Christ of ministering to the needy, After he had served the Purpose of God in His generation fell asleep and was laid to rest in His Home. 
+                    </p>
+                
+                    <p>
+                      Part of His Legacy is ministering to thousands through preaching the Gospel of Christ and through his charity work that has transformed communities. Also, Over 500 to be hopeless children But Now Successful in Life Adults. In Addition, He authored Two Books which are available on demand on God’s Grace titled <em><b>‘The Power of God to Save’ & ‘Unfettered Access’.</b></em>
+                    </p>
+          
+          
+        </div>
+
+
+    </div>
+
+
+    <footer>
+      <div class="b-example-divider copi"></div>
+    
+    
+      <div class="container copi">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-2">
+              <ul class="nav flex-column">
+                <li class="nav-item"><a href="{% url 'index' %}" class="nav-link text-white">Home</a></li>
+                <li class="nav-item mb-0"><a href="{% url 'orphanhome' %}" class="nav-link text-white">The Orphanage</a></li>
+                <li class="nav-item mb-0"><a href="{% url 'song' %}" class="nav-link text-white">Testimonies</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-2">
+              <ul class="nav flex-column">
+                <li class="nav-item mb-0"><a href="{% url 'ics' %}" class="nav-link p-1 text-white">Intermountain Christian School</a></li>
+                <li class="nav-item mb-0"><a href="{% url 'high' %}" class="nav-link p-1 text-white">Kambiri Victory High School</a></li>
+               
+              
+              </ul>
+            </div>
+            <div class="col-2">
+              <ul class="nav flex-column">
+                 
+              </ul>
+            </div>
+      
+      
+            <div class="col-4 offset-1">
+              <form>
+                <h5>Proverbs 19:17</h5>
+                <p>Whoever is Generous to the Poor Lends to the Lord, and He Will repay him or her for the deed</p>
+                <div class="d-flex w-100 gap-2">
+                  
+                 <a class="btn btn-primary"  href="mailto:ushindilife@gmail.com">CONTACT US</a>
+                  
+                </div>
+              </form>
+            </div>
+          </div>
+     
+         <div class="d-flex justify-content-between py-4 my-4 border-top">
+           <p>&copy; 2022 Ushindi Life International, Inc, All rights reserved.</p>
+           <ul class="list-unstyled d-flex">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="https://www.facebook.com/USHINDI-CHILDRENS-HOME-73403158082" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook" style="font-size:40px;color:white"></i></a>
+              <a class="navbar-brand" href="mailto:ushindilife@gmail.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-google" style="font-size:30px; color: white;"></i></a>
+              </div>
+           </ul>
+         </div>
+       </footer>
+     </div>
+</footer>
+
+
+ 
+ 
+ 
+     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>

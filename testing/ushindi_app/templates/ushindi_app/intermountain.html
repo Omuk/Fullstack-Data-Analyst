@@ -1,0 +1,270 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="{% static 'css/inter.css' %}">
+
+    <script defer src="{% static 'js/app.js'%}"></script>
+    
+
+    <title>Ushindi Children's Home</title>
+  </head>
+  <body>
+
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    
+<!-- <div class="container"> -->
+  <div class="topdiv">
+   
+  <div class="lownav">
+      <nav class="navbar navbar-custom mainnav">
+        <header class="d-flex flex-wrap justify-content-center py-2 mb-0">
+            <ul class="nav nav-pills btnnav">
+              <li class="nav-item"><a href="{% url 'index' %}" class="nav-link text-white">Home</a></li>
+                <li class="nav-item"><a href="{% url 'orphanhome' %}" class="nav-link text-white" aria-current="page">The Orphanage</a></li>
+                <li class="nav-item"><a href="{% url 'high' %}" class="nav-link text-white">Kambiri Victory High</a></li>
+                <li class="nav-item"><a href="{% url 'album' %}" class="nav-link text-white">Gallery</a></li>
+                <li class="nav-item"><a href="{% url 'involved' %}" class="nav-link text-white">Get Involved</a></li>
+            </ul>
+        </header>
+      </nav>
+  </div>
+
+  <div class="commbody">
+    <h3>Welcome to Intermountain Christian School Where <span><b><em>No Mountain is High Enough</em></b></span>
+       
+      
+      </h3>
+    
+  </div>
+
+</div>
+
+  <div class="middiv">
+
+        <div class="interaward">
+    
+            <h2>About Us</h2>
+            <p>
+                We are a Christian school offering highest quality of education to children located in rural Kenya. Our culture is to lay a strong academic foundation and nurture children’s talents and abilities thus facilitating their success in high school and later in Life.
+            </p>
+            <p>
+                As a School for the Future that has mastered the Current Competency Based Curriculum(CBC) , Our teaching methodology is designed to not merely educate children but nurture them physically, emotionally, mentally, and spiritually. 
+            </p>
+        </div>
+
+
+      <div class="icsprog">
+              <h3>What We Teach</h3>
+              <a href="{% url 'album' %}" class="btn btn-primary">Gallery</a>
+        <div class="row">
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body icsmottohead">
+                    <h5 class="card-title">Competency Based Curriculum Academics</h5>
+                    <img src="{% static 'images/highcurricu/ics55.jpg' %}" width="190" height="130" class="wdn-stretch rounded-corners"alt="pic" >
+                    <p>Intermountain Christian School Has Mastered the Competency Based Curriculum (CBC)</em></b></p>
+        
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body icsmottohead">
+                    <h5 class="card-title">Sports</h5>
+                    <img src="{% static 'images/highcurricu/ics96.jpg' %}" width="190" height="150" class="wdn-stretch rounded-corners" alt="pic" >
+                    <p>Our institution we are building programs that nurtures the children's talents in sports. Our Vision is to build the best in the country - both boys and girls Football(Soccer), Volleyball among other Sports.</p>
+        
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body icsmottohead">
+                    <h5 class="card-title">Swimming</h5>
+                    <img src="{% static 'images/highcurricu/ics109.jpg' %}" width="190" height="150" class="wdn-stretch rounded-corners" alt="pic" >
+                    <p><p>Students Attending Intermountain Christian School Are Offered an Opportunity in a safe environment to learn Swimming</em></b> </p>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body icsmottohead">
+                    <h5 class="card-title">Computer Studies</h5>
+                    <p>At Intermountain we offer our staff Computer Lessons to help ease the future transition of our students into computer studies. Our vision is to introduce <em><b>Computer studies that includes Programming as Part of the Program</b></em> when God Provides Resources</p>
+        
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body icsmottohead">
+                    <h5 class="card-title">Music and Drama</h5>
+                    <p>As a center of cultural hub, Talented Students at Intermountain Christian School are offered the opportunity to showcase their talents through singing, reciting, acting, dancing among others.</em></b> </p>
+              
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body icsmottohead">
+                    <h5 class="card-title">Special Education</h5>
+                    <img src="{% static 'images/highcurricu/ics32.jpg' %}" width="190" height="150" class="wdn-stretch rounded-corners" alt="pic" >
+                    <p>While not fully equipped to meet different special needs cases, We are trusting God for resources to be able to meet the need of caring for special needs children in our community</p>
+              
+                  </div>
+                </div>
+              </div>
+
+    
+        </div>
+      </div>
+
+  </div>
+
+
+ 
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<footer>
+  <div class="b-example-divider copi"></div>
+
+
+  <div class="container copi">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-2">
+          <ul class="nav flex-column">
+            <li class="nav-item"><a href="{% url 'index' %}" class="nav-link text-white">Home</a></li>
+            <li class="nav-item mb-0"><a href="{% url 'orphanhome' %}" class="nav-link text-white">The Orphanage</a></li>
+            <li class="nav-item mb-0"><a href="{% url 'song' %}" class="nav-link text-white">Testimonies</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-2">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-0"><a href="{% url 'ics' %}" class="nav-link p-1 text-white">Intermountain Christian School</a></li>
+            <li class="nav-item mb-0"><a href="{% url 'album' %}" class="nav-link p-1 text-white">Gallery</a></li>
+           
+            
+          </ul>
+        </div>
+  
+        <div class="col-2">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-0"><a href="{% url 'high' %}" class="nav-link p-1 text-white">Kambiri Victory High School</a></li>
+            <li class="nav-item mb-0"><a href="mailto:ushindilife@gmail.com" class="nav-link p-1 text-white">Contact Us</a></li>
+            
+          </ul>
+        </div>
+  
+        <div class="col-4 offset-1">
+          <form>
+            <h5>Proverbs 19:17</h5>
+            <p>Whoever is Generous to the Poor Lends to the Lord, and He Will repay him or her for the deed</p>
+            <div class="d-flex w-100 gap-2">
+              
+             <a class="btn btn-primary"  href="mailto:ushindilife@gmail.com">CONTACT US</a>
+              
+            </div>
+          </form>
+        </div>
+      </div>
+ 
+     <div class="d-flex justify-content-between py-4 my-4 border-top">
+       <p>&copy; 2022 Ushindi Life International, Inc, All rights reserved.</p>
+       <ul class="list-unstyled d-flex">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://www.facebook.com/USHINDI-CHILDRENS-HOME-73403158082" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook" style="font-size:40px;color:white"></i></a>
+          <a class="navbar-brand" href="mailto:ushindilife@gmail.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-google" style="font-size:30px; color: white;"></i></a>
+          </div>
+       </ul>
+     </div>
+   </footer>
+ </div>
+ </footer>
+
+<!-- <footer>
+  <div class="b-example-divider copi"></div>
+
+
+  <div class="container copi">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-2">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-0"><a href="{% url 'index' %}" class="nav-link p-1 text-white">Home</a></li>
+            <li class="nav-item mb-0"><a href="{% url 'orphanhome' %}" class="nav-link p-1 text-white">The Orphanage</a></li>
+            <li class="nav-item mb-0"><a href="{% url 'song' %}" class="nav-link p-1 text-white">Testimonies</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-2">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-0"><a href="{% url 'ics' %}" class="nav-link p-1 text-white">Intermountain Christian School</a></li>
+            <li class="nav-item mb-0"><a href="{% url 'album' %}" class="nav-link p-1 text-white">Gallery</a></li>
+           
+            
+          </ul>
+        </div>
+  
+        <div class="col-2">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-0"><a href="{% url 'high' %}" class="nav-link p-1 text-white">Kambiri Victory High School</a></li>
+            <li class="nav-item mb-0"><a href="mailto:ushindilife@gmail.com" class="nav-link p-1 text-white">Contact Us</a></li>
+            
+          </ul>
+        </div>
+  
+        <div class="col-4 offset-1">
+          <form>
+            <h5>Proverbs 19:17</h5>
+            <p>Whoever is Generous to the Poor Lends to the Lord, and He Will repay him or her for the deed</p>
+            <div class="d-flex w-100 gap-2">
+              
+             <a class="btn btn-primary"  href="mailto:ushindilife@gmail.com">CONTACT US</a>
+              
+            </div>
+          </form>
+        </div>
+      </div>
+ 
+     <div class="d-flex justify-content-between py-4 my-4 border-top">
+       <p>&copy; 2022 Ushindi Life International, Inc, All rights reserved.</p>
+       <ul class="list-unstyled d-flex">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://www.facebook.com/USHINDI-CHILDRENS-HOME-73403158082" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook" style="font-size:40px;color:white"></i></a>
+          <a class="navbar-brand" href="mailto:ushindilife@gmail.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-google" style="font-size:30px; color: white;"></i></a>
+          </div>
+       </ul>
+     </div>
+   </footer>
+ </div>
+ </footer> -->
+ 
+ 
+     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- ----------------------------- -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

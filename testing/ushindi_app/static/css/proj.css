@@ -1,0 +1,324 @@
+
+.topdiv { 
+  background-color: rgba(22,34,57,0.99);
+}
+
+
+.lownav {
+  display: flex;
+  justify-content: space-evenly;
+
+  
+}
+
+.lownav > .mainnav {
+  height: auto; 
+  width: auto;
+}
+
+.btnnav {
+-webkit-border-radius: 7;
+-moz-border-radius: 7;
+border-radius: 7px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #ffffff;
+font-size: 30px;
+font-family: 'Rosarivo', serif;
+background-color: rgba(13,110,253,0.95);
+}
+
+
+.btnnav > li :hover {
+background-image: -webkit-linear-gradient(top, #3498db, #952bb8);
+background-image: -moz-linear-gradient(top, #3498db, #952bb8);
+background-image: -ms-linear-gradient(top, #3498db, #952bb8);
+background-image: -o-linear-gradient(top, #3498db, #952bb8);
+background-image: linear-gradient(to bottom, #3498db, #952bb8);
+text-decoration: none;
+color: #ffffff;
+}
+
+.middiv { 
+  background-color: rgba(22,34,57,0.99);
+  
+  margin-bottom: 10px;
+}
+
+.imgush {
+  text-align: center;
+ 
+}
+.imgush > h2 {
+  color: orange;
+  font-family: 'Rosarivo', serif;
+  font-size: 45px;
+}
+
+.goodogod {
+  height: auto;
+  padding-left: 20px;
+  padding-top: 5px;
+  width: 98%;
+  margin-left: 10px;
+  text-align: center;
+  background-color: rgba(22,34,57,0.79);
+
+}
+
+
+
+.icsmottohead {
+  width: 100%;
+  height: 390px;
+  margin-bottom: 2px;
+  background-color: rgba(22,34,57,0.95);
+}
+
+.icsmottohead > h5 {
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+  color: orange;
+  background-size: auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.icsmottohead >p {
+  font-size: 10px;
+  text-align: center;
+  color:#34ace0;
+  font-size:17px;
+  font-size: auto;
+  padding-top:25px;
+  
+}
+.icsmottohead > img {
+  width: 25%;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-left: 10px;
+  padding-bottom: 20px;
+}
+
+footer {
+background-color: rgba(0, 0, 0, 1);
+color: white;
+text-shadow: 2px ;
+font-family: 'Tangerine', serif;
+height: auto;
+margin-top: 10px;
+}
+
+footer > .copi {
+font-size: 20px;
+font-family: rosales;
+
+}
+
+.b-example-divider {
+height: 3rem;
+background-color: rgba(0, 0, 0, .1);
+border: solid rgba(0, 0, 0, .15);
+border:#ffffff solid 3px;
+border-width: 1px 0;
+box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.bi {
+vertical-align: -.125em;
+fill: currentColor;
+}
+
+@media screen and (max-width: 430px) { 
+  .topdiv {
+        
+        background: none;
+        background-size: contain;
+        background-color: rgba(13,110,253,0.95);
+       
+      }
+  .mainnav { 
+          
+          padding-bottom: 0px;
+          padding-top: 0px;
+      }
+  .btnnav { 
+      
+      margin-top: 0%;
+      margin-bottom: 0px;
+      
+  }
+ 
+  .btnnav > li {
+        text-decoration: underline;
+       
+        
+  }
+
+
+
+  .goodogod {
+    height: auto;
+    padding-top: 2px;
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 4%;
+    text-align: center;
+    background-color: rgba(22,34,57,0.79);
+  
+  }
+  
+  
+  
+  .icsmottohead {
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+    margin-bottom: 2px;
+    background-color: rgba(22,34,57,0.95);
+  }
+  
+  .icsmottohead > h5 {
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    color: orange;
+    background-size: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .icsmottohead >p {
+    font-size: 10px;
+    text-align: center;
+    color:#34ace0;
+    font-size:17px;
+    font-size: auto;
+    padding-top:25px;
+    
+  }
+  .icsmottohead > img {
+    width: 25%;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 10px;
+    padding-bottom: 20px;
+  }
+  footer > .copi { 
+    font-size: 10px;
+    
+    
+}
+
+}
+
+@media (min-width: 431px) and (max-width: 575px) { 
+     
+.btnnav > li {
+  text-decoration: underline;
+ 
+  
+}
+
+.goodogod {
+height: auto;
+padding-top: 2px;
+width: 100%;
+padding-left: 0%;
+padding-right: 4%;
+text-align: center;
+background-color: rgba(22,34,57,0.79);
+
+}
+
+
+
+.icsmottohead {
+width: 100%;
+height: auto;
+margin-left: 0%;
+margin-bottom: 2px;
+height: fit-content;
+width: auto;
+background-color: rgba(22,34,57,0.95);
+}
+
+.icsmottohead > h5 {
+text-align: center;
+align-items: center;
+font-size: 30px;
+color: orange;
+background-size: auto;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.icsmottohead >p {
+font-size: 10px;
+text-align: center;
+color:#34ace0;
+font-size:17px;
+font-size: auto;
+padding-top:25px;
+
+}
+
+footer > .copi { 
+font-size: 10px;
+}
+}
+
+@media (min-width: 576px) and (max-width: 1023px) { 
+  .btnnav > li {
+    text-decoration: underline;
+   
+    
+  }
+  
+  .goodogod {
+  height: auto;
+  padding-top: 2px;
+  width: 100%;
+  padding-left: 0%;
+  padding-right: 4%;
+  text-align: center;
+  background-color: rgba(22,34,57,0.79);
+  
+  }
+  
+  
+  
+  .icsmottohead {
+  width: 100%;
+  height: auto;
+  margin-left: 0%;
+  margin-bottom: 2px;
+  height: fit-content;
+  width: auto;
+  background-color: rgba(22,34,57,0.95);
+  
+  }
+  
+  .icsmottohead > h5 {
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+  color: orange;
+  background-size: auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .icsmottohead >p {
+  font-size: 10px;
+  text-align: center;
+  color:#34ace0;
+  font-size:17px;
+  font-size: auto;
+  padding-top:25px;
+  
+  }
+ 
+  footer > .copi { 
+  font-size: 14px;
+  }
+}
