@@ -215,28 +215,12 @@ fill: currentColor;
   .icsmottohead {
       border: #952bb8 solid 1px;
       margin: 5px 0px 5px 3px;
-      height: 280px;
+      height: auto;
       box-shadow:0px 0px 3px rgba(0,0,0,.5);
       background-color: rgba(22,34,57,0.99);
       
     }
-  .icsmottohead > h5 {
-      text-align: center;
-      align-items: center;
-      font-size: 30px;
-      color: orange;
-      background-size: auto;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
   
-  .icsmottohead >p {
-      font-size: 10px;
-      text-align: center;
-      color:#34ace0;
-      font-size:17px;
-      padding-top:5px;
-      
-  }
    
   .icsmottohead > h5 {
       text-align: center;
@@ -251,16 +235,39 @@ fill: currentColor;
       font-size: 10px;
       text-align: center;
       color:#34ace0;
-      font-size:17px;
+      font-size:13px;
       padding-top:5px;
       
   }
-  
-  .icsmottohead > img {
-    float: left;
-    margin-left: 10px;
-    border-radius: 50px;
+  .icsmottoheadlg {
+    border: #952bb8 solid 1px;
+    margin: 5px 0px 5px 3px;
+    height: auto;
+    box-shadow:0px 0px 3px rgba(0,0,0,.5);
+    background-color: rgba(22,34,57,0.99);
+    
   }
+
+ 
+.icsmottoheadlg > h5 {
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    color: orange;
+    background-size: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.icsmottoheadlg >p {
+    font-size: 10px;
+    text-align: center;
+    color:#34ace0;
+    font-size:13px;
+    padding-top:5px;
+    
+}
+  
+ 
 
 
  

@@ -47,21 +47,148 @@
 <div class="goodogod">
   <h2>Photo Albums</h2>
     <div class="row">
-      {% for post in posts %}
+      
       <div class="col-sm-4">
         <div class="card">
           <div class="card-body picscover">
             
-            <img src="{{post.image.url}}" alt="pic" width="200" height="150">
+            <img src="{% static 'images/coverimg/mem15.jpg' %}">
             
-            <h5 class="card-title">{{post.title}}</h5>
-            <p class="card-text">{{post.content}}</p>
-            <a href="{% url 'pic_detail' post.id %}" class="btn btn-primary">More Pictures...</a>
+            <h5 class="card-title">Bishop Justus Memorial Tournament</h5>
+            <p class="card-text">YR 2021 Local Community Tournament in Honor Of Bishop Amunga</p>
+            <a href="{% url 'mem_detail' %}" class="btn btn-primary">More Pictures...</a>
           </div>
         </div>
 
       </div>
-      {% endfor %}
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body picscover">
+            
+            <img src="{% static 'images/coverimg/culture1.jpg' %}">
+            
+            <h5 class="card-title">Ushindi Cultural Events</h5>
+            <p class="card-text">Our Children maintaining our commitment of preserving the Kenya Culture</p>
+            <a href="{% url 'cul_detail' %}" class="btn btn-primary">More Pictures...</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body picscover">
+            
+            <img src="{% static 'images/coverimg/Solar2.jpeg' %}">
+            
+            <h5 class="card-title">Project (Solar Panel) - Previous</h5>
+            <p class="card-text">Achieving the Self Energy Sustainability</p>
+            
+            <a href="{% url 'sol_detail' %}" class="btn btn-primary">More Pictures...</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body picscover">
+            <img src="{% static 'images/coverimg/academ21.jpeg' %}">
+            <h5 class="card-title">High School</h5>
+            <p class="card-text">Our High School Students</p>
+            <a href="{% url 'high_detail' %}" class="btn btn-primary">More Pictures...</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body picscover">
+            <img src="{% static 'images/coverimg/high1.jpg' %}">
+            <h5 class="card-title">High School Excellence
+
+            </h5>
+            <p class="card-text">YR21 Kenya Certificate of Secondary Education (KCSE) Examinations Performance
+
+            </p>
+            <a href="{% url 'exc_detail' %}" class="btn btn-primary">More Pictures...</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body picscover">
+            <img src="{% static 'images/coverimg/ics82.jpg' %}">
+            <h5 class="card-title">Intermountain Christian School
+
+            </h5>
+            <p class="card-text">Our Intermountain Christian School Students
+
+            </p>
+            <a href="{% url 'inter_detail' %}" class="btn btn-primary">More Pictures...</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body picscover">
+            <img src="{% static 'images/coverimg/dad_mom1.jpg' %}">
+            <h5 class="card-title">Father and Mother of Many
+
+            </h5>
+            <p class="card-text">Our Founders
+
+            </p>
+            <a href="{% url 'mom_detail' %}" class="btn btn-primary">More Pictures...</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body picscover">
+            <img src="{% static 'images/coverimg/stivo_grad.jpg' %}">
+            <h5 class="card-title">Ushindi Alumni
+
+            </h5>
+            <p class="card-text">What the goodness of God Looks Like
+
+            </p>
+            <a href="{% url 'alum_detail' %}" class="btn btn-primary">More Pictures...</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body picscover">
+            <img src="{% static 'images/coverimg/cute_baby.jpg' %}">
+            <h5 class="card-title">Our Children
+
+            </h5>
+            <p class="card-text">Current Children in the Homes
+
+            </p>
+            <a href="{% url 'kid_detail' %}" class="btn btn-primary">More Pictures...</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body picscover">
+            <img src="{% static 'images/coverimg/faith.jpg' %}">
+            <h5 class="card-title">Our Story
+
+            </h5>
+            <p class="card-text">Where we started
+
+            </p>
+            <a href="{% url 'beg_detail' %}" class="btn btn-primary">More Pictures...</a>
+          </div>
+        </div>
+      </div>
+     
 
   </div>
 

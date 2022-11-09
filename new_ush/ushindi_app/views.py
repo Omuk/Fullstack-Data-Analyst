@@ -28,86 +28,66 @@ def involved(request):
 
 def song(request):
 
+    
+
     return render(request, 'ushindi_app/song.html')
 
 def projects(request):
 
+
+    
+
     return render(request, 'ushindi_app/projects.html')
 
-# def song(request):
 
-#     posts = Testimony.objects.all().order_by('-created_on')
-
-#     return render(request, 'ushindi_app/song.html', {'posts':posts})
-
+def gallery_album(request):
     
+    return render(request, 'ushindi_app/gallery_cover.html')
 
-# class SongDetail(generic.DetailView):
-#     model = Testimony
-#     # #full_song == post_detail
-#     template_name = 'ushindi_app/full_song.html'
+def mem_view(request):
 
-
-# def gallery_album(request):
-#     posts = Album.objects.all()
-#     return render(request, 'ushindi_app/gallery_cover.html', {'posts':posts})
- 
-
-# def album_view(request, id):
-#     album = get_object_or_404(Album, id=id)
-#     photos = GalleryPics.objects.filter(album=album)
-#     # # context = {
-#     # #     'post':post,
-#     # #     'photos':photos
-#     # # }
-
-#     return render(request, 'ushindi_app/gallery_pics.html', { 
-#         'album':album,
-#         'photos':photos
-#     })
+    return render(request, 'ushindi_app/gal_mem_pics.html')
 
 
-# def albums(request):
+def agr_view(request):
 
-#     # return render(request, 'app_ushindi/albums.html')
-#     pass 
+    return render(request, 'ushindi_app/gal_agr_pics.html')
 
+def alum_view(request):
 
-# def projects(request):
-
-
-#     posts = Projects.objects.all().order_by('-created_on')
-
-#     return render(request, 'ushindi_app/projects.html', {'posts':posts})
+    return render(request, 'ushindi_app/gal_alum_pics.html')
 
 
+def beg_view(request):
+
+    return render(request, 'ushindi_app/gal_beg_pics.html') 
 
 
-# # def projects(request):
+def cul_view(request):
 
-# #     # # posts = BlogPost.objects.all()
-# #     # posts = Projects.objects.all().order_by('-created_on')
+    return render(request, 'ushindi_app/gal_cul_pics.html') 
 
-# #     # return render(request, 'ushindi_app/projects.html', {'posts':posts})
 
-# #     pass 
+def exc_view(request):
 
-# class ProjectDetail(generic.DetailView):
-#     # model = Projects
-#     # #full_song == post_detail
-#     # template_name = 'app_ushindi/proj_detail.html'
+    return render(request, 'ushindi_app/gal_exc_pics.html') 
 
-#     pass 
+def high_view(request):
 
-# def proj_view(request, id):
-#     # album = get_object_or_404(Projects, id=id)
-#     # photos = ProjectPics.objects.filter(album=album)
-    
+    return render(request, 'ushindi_app/gal_high_pics.html') 
 
-#     # return render(request, 'app_ushindi/proj_detail.html', {
-#     #     'album':album,
-#     #     'photos':photos,
-        
-#     # })
+def inter_view(request):
 
-#     pass
+    return render(request, 'ushindi_app/gal_inter_pics.html')
+
+def kid_view(request):
+
+    return render(request, 'ushindi_app/gal_kid_pics.html') 
+
+def mom_view(request):
+
+    return render(request, 'ushindi_app/gal_mom_pics.html') 
+
+def sol_view(request):
+
+    return render(request, 'ushindi_app/gal_sol_pics.html')
