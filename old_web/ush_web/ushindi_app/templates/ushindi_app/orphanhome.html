@@ -1,0 +1,141 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="{% static 'css/orphanhome.css' %}">
+
+    <script defer src="{% static 'js/app.js'%}"></script>
+    
+
+    <title>Ushindi Children's Home</title>
+  </head>
+  <body>
+
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<div class="topdiv">
+
+  <div class="lownav">
+    <nav class="navbar navbar-custom mainnav">
+      <header class="d-flex flex-wrap justify-content-center py-2 mb-0">
+          <ul class="nav nav-pills btnnav">
+            <li class="nav-item"><a href="{% url 'index' %}" class="nav-link text-white" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="{% url 'song' %}" class="nav-link text-white">Songs of The Promised Land</a></li>
+            <li class="nav-item"><a href="{% url 'album' %}" class="nav-link text-white">Gallery</a></li>
+            <li class="nav-item"><a href="{% url 'involved' %}" class="nav-link text-white">Get Involved</a></li>
+          </ul>
+      </header>
+    </nav>
+</div>
+      
+
+      <div class="commbody">
+        <h3>At Ushindi, we are breaking the cycle of Poverty in Kenya One Child at a Time</h3>
+      </div>
+
+</div>
+    
+<div class="middiv">
+
+    <div class="ushstory">
+
+        <h2>Our Story</h2>
+        <p>When a child’s parents die, he or she faces serious challenges which may include extremely limited to access of most basic needs like food, shelter, and clothing or being left with an abusive extended family, or a family that is too poor or one with other needs making taking the new child to be unwanted responsibility. In a lot of cases as in some testimonies from our children, the child may end up as a beggar, street child, prostitution, committing crimes like stealing to survive or performing child labor.</p>
+        <p>Such circumstance usually erodes any bright future the child might have and ensures continuity of the cycle of poverty.</p>
+        <p>Among the many visions for the local community, Bishop Jane Amunga and the Late Bishop Justus Amunga sought to end this vicious cycle by creating an environment where the children have a New Hope and access to A Shelter, Healthy Diet, Education and Spiritual wellbeing. That environment is the Ushindi Children’s Home Kenya.</p>
+        <p>At Our Home, the children are provided with a balanced  and healthy diet of three meals a day. Every child has his or her own bed, beddings, and secured area to keep personal treasures. Each child has access  to routine medical care as well as any care that is need.</p> 
+        <p>The Children have access to quality education in institutions established by our founders and encouraged to participate in extracurricular activities that nurtures their talents provided in the schools. The children are raised in a safe, clean, loving environment where they can grow and flourish.</p>
+
+        <a class="btn btn-primary" style="font-size:20px;" href="{% url 'song' %}">Individual Stories/Testimonies</a>
+        <a href="{% url 'album' %}" class="btn btn-primary" style="font-size:20px;">Gallery</a>
+    </div>
+</div>
+  
+ 
+    
+ <!-- ------------------------------------------------------------------------------------------------------------------- -->
+
+ <footer>
+  <div class="b-example-divider copi"></div>
+
+
+  <div class="container copi">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-2">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="{% url 'index' %}" class="nav-link p-1 text-white">Home</a></li>
+            <li class="nav-item mb-2"><a href="{% url 'orphanhome' %}" class="nav-link p-1 text-white">The Orphanage</a></li>
+            <li class="nav-item mb-2"><a href="{% url 'song' %}" class="nav-link p-1 text-white">Testimonies</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-2">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="{% url 'ics' %}" class="nav-link p-1 text-white">Intermountain Christian School</a></li>
+            <li class="nav-item mb-2"><a href="{% url 'album' %}" class="nav-link p-1 text-white">Gallery</a></li>
+           
+            
+          </ul>
+        </div>
+  
+        <div class="col-2">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="{% url 'high' %}" class="nav-link p-1 text-white">Kambiri Victory High School</a></li>
+            <li class="nav-item mb-2"><a href="mailto:ushindilife@gmail.com" class="nav-link p-1 text-white">Contact Us</a></li>
+            
+          </ul>
+        </div>
+  
+        <div class="col-4 offset-1">
+          <form>
+            <h5>Proverbs 19:17</h5>
+            <p>Whoever is Generous to the Poor Lends to the Lord, and He Will repay him or her for the deed</p>
+            <div class="d-flex w-100 gap-2">
+              
+             <a class="btn btn-primary"  href="mailto:ushindilife@gmail.com">CONTACT US</a>
+              
+            </div>
+          </form>
+        </div>
+      </div>
+ 
+     <div class="d-flex justify-content-between py-4 my-4 border-top">
+       <p>&copy; 2022 Ushindi Life International, Inc, All rights reserved.</p>
+       <ul class="list-unstyled d-flex">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://www.facebook.com/USHINDI-CHILDRENS-HOME-73403158082" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook" style="font-size:30px;color:white"></i></a>
+          <a class="navbar-brand" href="mailto:ushindilife@gmail.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-google" style="font-size:30px; color: white;"></i></a>
+          </div>
+       </ul>
+     </div>
+   </footer>
+ </div>
+ </footer>
+ 
+ 
+     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- ----------------------------- -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

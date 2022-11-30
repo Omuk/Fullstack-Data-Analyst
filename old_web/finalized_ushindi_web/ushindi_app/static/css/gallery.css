@@ -1,0 +1,122 @@
+body{
+    
+    background-color: rgba(22,34,57,0.99);
+      
+    
+}
+
+
+.lownav {
+    display: flex;
+    justify-content: space-evenly;
+
+    
+}
+
+.lownav > .mainnav {
+    height: auto; 
+    width: auto;
+}
+
+.btnnav {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Rosarivo', serif;
+  background-color: rgba(13,110,253,0.95);
+}
+ 
+
+.btnnav > li :hover {
+  background-image: -webkit-linear-gradient(top, #3498db, #952bb8);
+  background-image: -moz-linear-gradient(top, #3498db, #952bb8);
+  background-image: -ms-linear-gradient(top, #3498db, #952bb8);
+  background-image: -o-linear-gradient(top, #3498db, #952bb8);
+  background-image: linear-gradient(to bottom, #3498db, #952bb8);
+  text-decoration: none;
+  color: #ffffff;
+}
+
+  .goodogod {
+    height: fit-content;
+    padding-left: 20px;
+    padding-top: 15px;
+    width: 98%;
+    margin-left: 10px;
+    text-align: center;
+    background-color: rgba(22,34,57,0.99);
+
+  }
+
+  .goodogod > h2 {
+    color: orange;
+  }
+
+
+
+.picscover {
+    margin: 1px 0px 1px 1px;
+    height: auto;
+    box-shadow:0px 0px 3px rgba(0,0,0,.5);
+    background-color: rgba(22,34,57,0.99);
+    
+}
+ 
+.picscover > h5 {
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    color: orange;
+    background-size: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+
+.picscover >p {
+    text-align: center;
+    color:#34ace0;
+    font-size:17px;
+    padding-top:5px;
+    
+}
+
+.picscover > img {
+  width: auto;
+  height: 213px;
+  float: top;
+  
+  border: #00ff00 solid 10px;
+}
+
+
+ footer {
+  background-color: rgba(0, 0, 0, 1);
+  color: white;
+  text-shadow: 2px ;
+  font-family: 'Tangerine', serif;
+  height: auto;
+}
+
+footer > .copi {
+font-size: 20px;
+font-family: rosales;
+
+}
+
+.b-example-divider {
+height: 3rem;
+background-color: rgba(0, 0, 0, .1);
+border: solid rgba(0, 0, 0, .15);
+border:#ffffff solid 3px;
+border-width: 1px 0;
+box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.bi {
+vertical-align: -.125em;
+fill: currentColor;
+}
